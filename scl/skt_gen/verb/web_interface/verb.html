@@ -1,0 +1,76 @@
+<script>
+  $(document).ready(function () {
+    update_encoding();
+    $('tr').not('no-pad').css("padding-bottom", "10px");
+  });
+</script>
+
+<div id="verb-dashboard">
+  
+  <div class="dept-name">&nbsp;&nbsp;&nbsp;क्रियारूपनिष्पादिका / Verb-form Generator</div>
+  
+  <form name="test" method="post" onsubmit="return mycallverbgen();">
+    
+    <table>
+
+      <tr>
+        <td colspan="5">
+          <label for="enc">लिपिः / Encoding</label>
+          <select class="form-select" name="enc" id="enc" onchange="update_encoding();">
+            <option value="dev">देवनागरी</option>
+            <option value="rom">Roman IAST</option>
+          </select>
+        </td>
+      </tr>
+
+      <tr class="no-pad">
+        <td><label for="upasargaH" id="lbl-upasargaH">उपसर्गः</label></td>
+        <td><label for="XAwu" id="lbl-XAwu">धातु</label></td>
+        <td><label for="prayogaH" id="lbl-prayogaH">प्रयोगः</label></td>
+        <td class="akarmaNi"><label for="paxI" id="lbl-paxI">पदी</label></td>
+        <td class="akarmaNi"><label for="Nic" id="lbl-Nic">णिजन्तम्</label></td>
+      </tr>
+
+      <tr>
+        <td>
+          <select name="upasargaH" id="upasargaH"></select>
+        </td>
+
+        <td>
+          <select name="XAwu" id="XAwu"></select>
+        </td>
+
+        <td>
+          <select name="prayogaH" id="prayogaH" onchange="update_voice();">
+            <option value="karwari" id="lbl-karwari">कर्तरि</option>
+            <option value="karmaNi" id="lbl-karmaNi">कर्मणि</option>
+          </select>
+        </td>
+
+        <td>
+          <select class="akarmaNi" name="paxI" id="paxI">
+            <option value="parasmEpaxI" id="lbl-parasmEpaxI">परस्मैपदी</option>
+            <option value="AwmanepaxI" id="lbl-AwmanepaxI">आत्मनेपदी</option>
+            <option value="uBayapaxI" id="lbl-uBayapaxI">उभयपदी</option>
+          </select>
+        </td>
+
+        <td>
+          <input class="akarmaNi" type="checkbox" name="Nic" id="Nic">
+        </td>
+
+      </tr>
+
+      <tr>
+        <td colspan="5">
+          <input class="styled-button-3" type="submit" value="रूपाणि दृश्यताम्" id="submit-verb">
+        </td>
+      </tr>
+
+    </table>
+
+  </form>
+
+</div>
+
+<div id="output"/>

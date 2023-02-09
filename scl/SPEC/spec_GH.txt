@@ -1,0 +1,39 @@
+#Path for ZEN Library
+ZENDIR=/Users/huet/ML/ZEN/Zen/ML/
+
+#Path for installation of all package. 
+SCLINSTALLDIR=/Users/huet/Sanskrit/SCL
+
+#Paths for enabling web services
+HTDOCSDIR=/Library/WebServer/Documents
+
+CGIDIR=/Library/WebServer/CGI-Executables
+
+APACHE_USER_GROUP="_www:_www"
+
+#Path for JAVA
+JAVAPATH=/usr/bin/javac
+
+#Path of lt-proc
+LTPROCBIN=/usr/local/bin/lt-proc
+
+#Paths for webdot.pl
+GraphvizDot=/usr/local/bin/dot
+
+#Path for PYTHON
+MYPYTHONPATH=/opt/homebrew/bin/python3
+
+#Heritage installation path (for interface)
+HERITAGE_CGI=SKT/sktgraph2.cgi
+
+#Path for temporary files
+TFPATH=/private/tmp/SKT_TEMP
+
+#Version SERVER/STANDALONE
+VERSION=STANDALONE
+LOG=false
+
+#TIMEOUT with SIGTERM signal
+#TIMEOUT="timeout -15 3m"
+TIMEOUT="" 
+# suggested till this problem is solved

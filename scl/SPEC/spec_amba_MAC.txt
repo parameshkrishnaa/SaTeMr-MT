@@ -1,0 +1,39 @@
+#Path for ZEN Library
+ZENDIR=/Users/ambakulkarni/amba/SKT/zen/ML/
+
+#Path for installation of all package. 
+SCLINSTALLDIR=/Users/ambakulkarni/amba/scl
+
+#Paths for enabling web services
+HTDOCSDIR=/Library/WebServer/Documents
+
+CGIDIR=/Library/WebServer/CGI-Executables
+
+APACHE_USER_GROUP="_www:_www"
+
+#Path for JAVA
+JAVAPATH=/usr/bin/javac
+
+#Path of lt-proc
+LTPROCBIN=/usr/local/bin/lt-proc
+
+#Paths for DOT
+GraphvizDot=/opt/local/bin/dot
+
+#Path for PYTHON
+MYPYTHONPATH=/opt/homebrew/bin/python3
+
+#Heritage installation path (for interface)
+HERITAGE_CGI=SKT/sktgraph2.cgi
+
+#Path for temporary files
+TFPATH=/private/tmp/SKT_TEMP
+
+#Version SERVER/STANDALONE
+VERSION=STANDALONE
+LOG=true
+
+#TIMEOUT with SIGTERM signal
+#TIMEOUT="timeout -15 3m"
+TIMEOUT="" 
+# suggested till this problem is solved
