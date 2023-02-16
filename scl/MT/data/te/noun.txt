@@ -88,3 +88,10 @@ XanaFjaya,puM,XanaFjayudu,puM
 pONdra,puM,pONdraM,napuM
 BImakarman,puM,BImakarmudu,puM
 vqkoxara,puM,vqkoxarudu,puM
+pANdu,puM,pANdurAju,puM
+arjuna,puM,arjunudu,puM
+maheRvAsa,puM,vilukArudu,puM
+BIma,puM,BImudu,puM
+Saswra,puM,SaswraM,napuM
+sUra,puM,sUrudu,puM
+xvija,puM,xvijudu,puM
