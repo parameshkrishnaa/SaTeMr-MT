@@ -17,7 +17,7 @@ ixam,puM,iwanu^iwadu
 ixam,swrI,ImeV^Ivida
 kawi,a,eVnni
 kim,napuM,eVvaru
-kim_1,napuM,emi
+kim_1,napuM,emiti
 kim,puM,eVvaru
 kim,swrI,eVvaru
 sarva,puM,aMxaru
@@ -33,3 +33,11 @@ yuRmax,a,nuvvu
 kimciw,puM,eVvaro
 kimciw,napuM,koVMceVM
 kimciw,swrI,eVvaro 
+#qRtakewu,puM,xqRtakewudu,puM
+#cekiwAna,puM,cekiwAnudu,puM
+#kASirAja,puM,kASiraju,puM
+#purujiw,puM,purujiwwudu,puM
+#vIryavaw,puM,vIrudu,puM
+#kunwiBoja,puM,kuMwiBojudu,puM
+#SEbya,puM,sEbyudu,puM
+#narapufgava,puM,narapuMgavudu,puM
