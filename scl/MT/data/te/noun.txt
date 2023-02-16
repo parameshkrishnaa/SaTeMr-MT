@@ -11,8 +11,8 @@ saFjaya,puM,saMjayudu,puM
 Xarma,puM,Xarmamu,napuM
 kRewra,napuM,kRewramu,napuM
 kuru,puM,kuruvu,puM
-yuyuwsu,puM,yuxXamaMxu_Asakwudu
-mAmaka,puM,nA_vAlYlYu,puM
+yuyuwsu,puM,yuxXamaMxu_Asakwudu,puM
+mAmaka,puM,mA_vAru,puM
 pANdava,puM,pANdavudu,puM
 anIka,puM,sEnyamu,napuM
 vyUDa,puM,vyUDamu,napuM

@@ -63,7 +63,7 @@ my($in,$show,$not) = @_;
 my($out);
       $in =~ s/\/$//;
       ($rt,$cat,$gen,$num,$per,$tam) = split(/ /,$in);
-	  #print "$rt $cat $gen $num $per $tam";
+      # print "$rt $cat $gen $num $per $tam";
       if($rt =~ /^(.*-)([^\-]+)$/) { $pUrva = $1; $rt = $2;} else {$pUrva = "";}
       ($rt,$tam) = split(/:/,&handle_hE($rt,$tam));
       ($rt,$cat) = split(/:/,&handle_Bavaw($rt,$cat));
