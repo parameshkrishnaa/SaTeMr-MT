@@ -141,6 +141,9 @@ tel_gen(){
   if [ $OUTSCRIPT = "Telugu" ]; then
     $ANU_MT_PATH/translation/translate.sh $SCLINSTALLDIR $my_converter_wxTelugu < $temp_files_path/$fbn.out > $temp_files_path/../${fbn}_trnsltn
   fi
+  if [ $OUTSCRIPT = "IAST" ]; then
+    $ANU_MT_PATH/translation/translate.sh $SCLINSTALLDIR $my_converter_wxHindi < $temp_files_path/$fbn.out > $temp_files_path/../${fbn}_trnsltn
+  fi
   if [ $OUTSCRIPT = "Hindi" ]; then
     $ANU_MT_PATH/translation/translate.sh $SCLINSTALLDIR $my_converter_wxHindi < $temp_files_path/$fbn.out > $temp_files_path/../${fbn}_trnsltn
   fi
