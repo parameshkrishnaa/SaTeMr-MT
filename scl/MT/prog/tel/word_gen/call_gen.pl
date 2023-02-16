@@ -63,7 +63,7 @@ my($in,$show,$not) = @_;
 my($out);
       $in =~ s/\/$//;
       ($rt,$cat,$gen,$num,$per,$tam) = split(/ /,$in);
-      #  print "$rt $cat $gen $num $per $tam";
+	  #print "$rt $cat $gen $num $per $tam";
       if($rt =~ /^(.*-)([^\-]+)$/) { $pUrva = $1; $rt = $2;} else {$pUrva = "";}
       ($rt,$tam) = split(/:/,&handle_hE($rt,$tam));
       ($rt,$cat) = split(/:/,&handle_Bavaw($rt,$cat));
@@ -71,36 +71,47 @@ my($out);
       if($rt =~ /\-/) {$rt =~ s/\-/__/g;}
  
       #$out = `$SCLINSTALLDIR/MT/prog/hn/word_gen/test/new_gen.out $show $not $rt $cat $gen $num $per $tam`;
-      
+	  $num=~ s/s/sg/;
+	  $num=~ s/p/pl/; # temporarily added
+
       ##########################
       open (TMP, ">/tmp/tel_in");
       # open (TMP, ">>/tmp/tel_in"); # to get info of all words
 	if ($cat eq "v") {
-      		#veVlYlu<cat:v><gnp:3_pu_e><tam:wunn>
-      		$gen=~ s/m/pu/;
-      		$num=~ s/s/e/;
-      		$num=~ s/p/ba/; # temporarily added
+		$cat = "verb";
+		#veVlYlu<cat:v><gnp:3_pu_e><tam:wunn>
+			#$gen=~ s/m/pu/;
       		$tam=~ s/tunn/wunn/;
-		if(($per=~/s/)&&($gen=~/pu/)){
-      		$wrd="^".$rt."<cat:".$cat."><gnp:23\_".$num."><tam:".$tam.">\$"; 
-		}
-		if(($per=~/any/)&&($gen=~/any/)&&($num=~/any/)){
-      		$wrd="^".$rt."<cat:".$cat."><gnp:any><tam:".$tam.">\$"; 
-		}
-		else{
-      		$wrd="^".$rt."<cat:".$cat."><gnp:3\_".$gen."\_".$num."><tam:".$tam.">\$"; }
-		}
+			if($gen=~/m|f|n/) {
+				$per = "3";
+cm}
+			#if(($per=~/s/)&&($gen=~/pu/)){
+			#$wrd="^".$rt."<cat:".$cat."><gnp:23\_".$num."><tam:".$tam.">\$"; 
+			#}
+			#if(($per=~/any/)&&($gen=~/any/)&&($num=~/any/)){
+			#$wrd="^".$rt."<cat:".$cat."><gnp:any><tam:".$tam.">\$"; 
+			#}
+			#else{
+				#$wrd="^".$rt."<cat:".$cat."><gnp:3\_".$gen."\_".$num."><tam:".$tam.">\$"; }
+			$wrd="^".$rt."<lcat:".$cat."><gen:".$gen."><num:".$num."><per:".$per."><tam:".$tam."><suffix:".$tam.">\$"; }
+		#}
 	elsif (($cat eq "n") || ($cat eq "P")) {
       		#^sIwani/sIwa<cat:n><num:eka><parsarg:ni>$
-		$num=~ s/s/eka/;
+		$cat=~s/^n$/noun/g;
+		$cat=~s/^P$/pronoun/g;
+		$gen=~s/m/any/g; #for time being gender is considered any for vanaM
+		$per=~s/a/any/g;
 		#$tam=~ s/2/ni/;
-      		$wrd="^".$rt."<cat:".$cat."><num:".$num."><parsarg:".$tam.">\$"; }
+		#$wrd="^".$rt."<cat:".$cat."><num:".$num."><parsarg:".$tam.">\$"; }
+			$wrd="^".$rt."<lcat:".$cat."><gen:".$gen."><num:".$num."><per:".$per."><case:o><cm:".$tam."><suffix:".$tam.">\$"; }
+		#print "$wrd";
 	else {
 		$wrd=$rt."_".$tam;
 	     }
       print TMP $wrd;
       close (TMP);
-      system("/usr/bin/lt-proc -c -g  $SCLINSTALLDIR/MT/prog/tel/word_gen/telugu-apertium.mogen < /tmp/tel_in > /tmp/tel_out");
+	  #system("/usr/bin/lt-proc -c -g  $SCLINSTALLDIR/MT/prog/tel/word_gen/telugu-apertium.mogen < /tmp/tel_in > /tmp/tel_out");
+	  system("/usr/bin/lt-proc -c -g  $SCLINSTALLDIR/MT/prog/tel/word_gen/tel_apertium_v1.1.mogen < /tmp/tel_in > /tmp/tel_out");
       open(TELGEN,"</tmp/tel_out");
       $out=<TELGEN>;
       $out=~s/\/.*//;
