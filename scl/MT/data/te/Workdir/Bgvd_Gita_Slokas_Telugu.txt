@@ -1,0 +1,194 @@
+Bhagavat Gita
+
+Chapter 1
+
+Sloka 1
+
+Samskrit:
+
+Xarma-kRewre kuru-kRewre samavewA yuyuwsavaH |
+mAmakAH pANdavAH ca eva kim akurvawa saFjaya ||
+
+Telugu:
+
+saMjaya! XarmakRewtramaMxu kurukRewramaMxu kUdiyunna yuxXamu ceyu Asakwi kalavAru.
+ayina nA vAllu mariyu pANdavulu emi cesAru
+
+Sloka 2
+
+Samskrit:
+
+xqRtvA wu pANdavAnIkaM vyUDaM xuryoXanaswaxA |
+AcAryamupasafgamya rAjA vacanamabravIw ||
+
+Telugu:
+
+vyUDamaMxu unna pANdavasEnyamunu cUsina waruvAwa xuryoXanudu appudu AcAryudini samIpiMci rAju I viXamuga mAtlAdAdu.
+
+Sloka 3
+
+Samskrit:
+
+paSyEwAM pANdupuwrAnAmAcArya mahawIM camUM |
+vyUDAM xrupaxapuwreNa wava SiRyeNa XImawA ||
+
+Telugu:
+
+AcArya ! nI SiRyudEna XImaMwudEna xrupaxapuwrudi cewa ceyabadda vyUDamaMxu unna pANdupuwrulayokka goppa sEnyamuni cUdu.
+
+Sloka 4
+
+Samskrit:
+
+awra SUrAH mahA-ISu-AsAH BIma-arjuna-samAH yuXi |
+yuyuXAnaH virAtaH ca xrupaxaH ca mahAraWaH ||
+
+Telugu:
+
+ikkada BImArjunulaku samAnulEna SUrulu goppa vilukArulu yuyuXAnudu mariyu virAtudu mariyu mahAraWudEna xrupaxudu (unnAru).
+
+Sloka 5
+
+Samskrit:
+
+XqRtakewuH cekiwAnaH kASirAjaH ca vIryavAn |
+purujiw kunwiBojaH ca SEbyaH ca narapufgavaH ||
+
+Telugu:
+
+vIrulEna XqRtakewudu cekiwAnudu mariyu kASiraju purujiwwudu kunwiBojudu mariyu narapufgavudEna sEbyudu unnAru.
+
+Sloka 6
+
+Samskrit:
+
+yuXAmanyuH ca vikrAnwaH uwwamOjAH ca vIryavAn |
+sOBaxraH xrOpaxeyAH ca sarve eva mahAraWAH ||
+
+Telugu:
+
+vIrudEna yuXAmanyudu mariyu vikrAMwudEna uwwamOjudu mariyu sOBaxrudu mariyu drOpaxeyulu aMxaru niScayamuga mahAraWulu.
+
+Sloka 7
+
+Samskrit:
+
+asmAkaM wu viSiRtA ye wAnniboXa xvija-uwwama |
+nAyakAH mama sEnyasya saMjFArWam wAn bravImi we ||
+
+xvijowwma ! nA sEnyaM yokka nAyakulu viSiRtulu ayina mana vAllani weVlusukoV. nIku weliyatAniki ceVpwAnu.
+
+Sloka 8
+
+Samskrit:
+
+BavAn BIRmaH ca karNaH ca kqpaH ca samiwiMjayaH |
+aSvawWAmA vikarNaH ca sOmaxawwiH waWA eva ca ||
+
+Telugu:
+
+A prakAramuga mIru BIRmudu mariyu karNudu mariyu kqpAcAryudu mariyu samiwiMjayudu aSvawWAmudu vikarNudu mariyu somaxawwudu niScayamuga (vIrulu unnAru).
+
+Sloka 9
+
+Samskrit:
+
+anye ca bahavaH SUrAH maxarWe wyakwa-jIviwAH |
+nAnA-Saswra-praharaNAH sarve yuxXa-viSAraxAH ||
+
+Telugu:
+
+iwarulu mariyu cAlAmaMxi aneka SaswrAlanu XariMcina SUrulu nAkoraku jIviwAlu vaxiliveyatAniki (sixXaMgA unnAru).
+
+Sloka 10
+
+Samskrit:
+
+a-paryApwaM waw asmAkaM balaM BIRmABirakRiwam |
+paryApwaM wu ixam eweRAM balaM BImABirakRiwam ||
+
+Telugu:
+
+BIRmABirakRiwamEna mana A balamu aparyApwamu. BImABIrakRiwamEna vIlYlYayokka balamu paryApwamu.
+
+Sloka 11
+
+Samskrit:
+
+ayaneRu ca sarveRu yaWA-BAgam avasWiwAH
+BIRmam eva aBirakRanwu BavanwaH sarve eva hi
+
+Sloka 12
+
+Samskrit:
+
+wasya saFjanayan harRam kuru-vqxXaH piwAmahaH
+siMha-nAxam vinaxya uccEH SafKam xaXmO prawApavAn
+
+Sloka 13
+
+Samskrit:
+
+wawaH SafKAH ca BeryaH ca paNavAnaka-gomuKAH
+sahasA eva aByahanyanwa saH SabxaH wumulaH aBavaw
+
+Sloka 14
+
+Samskrit:
+
+wawaH SvewEH hayEH yukwe mahawi syanxane sWiwO
+mAXavaH pANdavaH ca eva xivyO SafKO praxaXmawuH
+
+Sloka 15
+
+Samskrit:
+
+pAFcajanyam hqRIkeSaH xeva-xawwam XanaFjayaH
+pONdram xaXmO mahAn-SafKam BIma-karmA vqkoxaraH
+
+
+
+noun.txt
+saFjaya,puM,saMjayudu,puM
+Xarma,puM,Xarmamu,napuM
+kRewra,napuM,kRewramu,napuM
+kuru,puM,kuruvu,puM
+yuyuwsu,puM,yuxXamaMxu_Asakwudu
+mAmaka,puM,nA_vAlYlYu,puM
+pANdava,puM,pANdavudu,puM
+anIka,puM,sEnyamu,napuM
+vyUDa,puM,vyUDamu,napuM
+xuryoXana,puM,xuryoXanudu,puM
+AcArya,puM,AcAryudu,puM
+vacana,napuM,vacanamu,napuM
+rAjan,puM,rAju,puM
+puwra,puM,puwrudu,puM
+camU,swrI,sEnyamu,napuM
+mahawI,swrI,goppaxi,napuM
+xrupaxa,puM,xrupaxudu,puM
+SiRya,puM,SiRyudu,puM
+XImaw,puM,XImaMwudu,puM
+samavewa,puM,kUdi_unna,puM
+
+
+Verb.txt
+kq3,ap,sk,v,ceyi,karaNe
+brU1,pp,sk,v,mAtlAdu,vyakwAyAm_vAci
+ava_sWA1,pp,ak,v,nilabadi_uMdu^uMdu,NW
+sam_jan2,ap,sk,v,janiyiMcu^kaligiMcu,praxurBAve
+XmA1,pp,sk,v,Uxu^SabxaM_ceyu,Sabxe
+vi_Nax1,pp,sk,v,SabxaM_ceyu,Sabxe
+aBi_han1,pp,sk,v,xAdi_ceyu^caMpu^kottu,NW
+BU1,pp,ak,v,agu,sawwAyAm
+pra_XmA_1,pp,sk,v,Uxu^SabxaM_ceyu,Sabxe
+RWA1,pp,ak,v,nilabadi^uMdu,gawinivqwwO
+
+
+
+
+
+
+
+
+
+
