@@ -8,3 +8,12 @@ xqS1,pp,sk,v,cUdu,xarSane
 kq3,ap,sk,v,ceVyyi,karaNe
 brU1,pp,sk,v,mAtlAdu,vyakwAyAm_vAci
 as2,pp,sk,v,uMdu,Buvi
+aBi_rakR1,pp,sk,v,rakRiMcu,pAlane
+ava_sWA1,pp,ak,v,nilabadi_uMdu^uMdu,NW
+sam_jan2,ap,sk,v,janiyiMcu^kaligiMcu,praxurBAve
+XmA1,pp,sk,v,Uxu^SabxaM_ceyu,Sabxe
+vi_Nax1,pp,sk,v,SabxaM_ceyu,Sabxe
+aBi_han1,pp,sk,v,xAdi_ceyu^caMpu^kottu,NW
+BU1,pp,ak,v,agu,sawwAyAm
+pra_XmA_1,pp,sk,v,Uxu^SabxaM_ceyu,Sabxe
+RWA1,pp,ak,v,nilabadi^uMdu,gawinivqwwO
