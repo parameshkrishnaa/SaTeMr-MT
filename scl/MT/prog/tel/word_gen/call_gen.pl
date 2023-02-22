@@ -79,6 +79,9 @@ my($out);
       # open (TMP, ">>/tmp/tel_in"); # to get info of all words
 	if ($cat eq "v") {
 		$cat = "verb";
+		if (($gen eq "f")&&($num eq "sg")){
+		$gen = "fn";
+		}
 		#veVlYlu<cat:v><gnp:3_pu_e><tam:wunn>
 			#$gen=~ s/m/pu/;
       		$tam=~ s/tunn/wunn/;
@@ -103,7 +106,7 @@ cm}
 		$per=~s/a/any/g;
 		#$tam=~ s/2/ni/;
 		#$wrd="^".$rt."<cat:".$cat."><num:".$num."><parsarg:".$tam.">\$"; }
-			$wrd="^".$rt."<lcat:".$cat."><gen:".$gen."><num:".$num."><per:".$per."><case:o><cm:".$tam."><suffix:".$tam.">\$"; }
+			$wrd="^".$rt."<lcat:".$cat."><gen:".$gen."><num:".$num."><per:".$per."><cm:".$tam."><suffix:".$tam.">\$"; }
 		#print "$wrd";
 	else {
 		$wrd=$rt."_".$tam;
