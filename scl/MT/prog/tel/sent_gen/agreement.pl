@@ -56,6 +56,7 @@ if($ARGV[3] eq "D") { $DEBUG = 1;} else {$DEBUG = 0;}
 
 $DEBUG = 1;
 require "$prog_Path/add_ki.pl";
+require "$prog_Path/add_wo.pl";
 require "$prog_Path/handle_noun_verb_agr.pl";
 require "$prog_Path/hindi_idio_karma_ko.pl";
 require "$prog_Path/hindi_second_person_honorificity.pl";
@@ -130,6 +131,12 @@ chomp;
 $key = $_;
 $EXCPT_KI{$key}=1;
 }
+open(TMP,"$Data_Path/te/wo_karma_motion_verbs.txt") || die "Can't open ne_excptnl_verbs.txt for reading";
+while(<TMP>) {
+chomp;
+$key = $_;
+$EXCPT_WO{$key}=1;
+}
 close(TMP);
 #All the variables used are Global variables, except $i
 
@@ -160,6 +167,9 @@ for ($i=1; $i <= $#wrd_ana+1; $i++){
   
   &add_ki();
   if($DEBUG) {&print_array("STDERR","Add ki",$wrd_fld,$morph_kaaraka_anal,$ana_fld_for_calling_gen_after_lwg);}
+  
+  &add_wo();
+  if($DEBUG) {&print_array("STDERR","Add wo",$wrd_fld,$morph_kaaraka_anal,$ana_fld_for_calling_gen_after_lwg);}
   
   &kriyAmUla_karma_viBakwi();
   if($DEBUG) {&print_array("STDERR","kriyAmUla_karma_vibh",$wrd_fld,$morph_kaaraka_anal,$ana_fld_for_calling_gen_after_lwg);}

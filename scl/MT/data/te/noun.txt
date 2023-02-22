@@ -15,7 +15,8 @@ yuyuwsu,puM,yuxXamaMxu_Asakwudu,puM
 mAmaka,puM,mA_vAru,puM
 pANdava,puM,pANdavudu,puM
 anIka,puM,sEnyamu,napuM
-vyUDa,puM,vyUDamu,napuM
+vyUDa,puM,vyUDaM,napuM
+vyUDa,napuM,vyUDaM,napuM
 xuryoXana,puM,xuryoXanudu,puM
 AcArya,puM,AcAryudu,puM
 vacana,napuM,vacanamu,napuM
@@ -95,3 +96,4 @@ BIma,puM,BImudu,puM
 Saswra,puM,SaswraM,napuM
 sUra,puM,sUrudu,puM
 xvija,puM,xvijudu,puM
+senA,swrI,sena,napuM
