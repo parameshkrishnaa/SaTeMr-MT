@@ -304,7 +304,9 @@ while($tmpin = <STDIN>){
           $map_rt = &get_dict_mng($rt, $rAVY);
 	  #print "map_rt = ", $map_rt,"\n";
           if($samAsa_pUrvapaxa) { $map_rt = $samAsa_pUrvapaxa.$map_rt;}
-          $ans .= "/$map_rt avy NW NW NW NW";
+	  #$ans .= "/$map_rt avy NW NW NW NW";
+	  #to tackle _NW Param_feb24
+          $ans .= "/$map_rt avy";
 
       } elsif($cat eq "v") {
 
