@@ -1,43 +1,67 @@
 1. रामः वनं गच्छति
 rAmaH vanam gacCawi
+రాముడు అడవికి వెళ్తున్నాడు
 
 2. रामेण सह सीता वनं गच्छति
 rAmeNa saha sIwA vanaM gacCawi
+రాముడు కలిసి సీత అడవికి వెళ్లుతోంది
+rAmudiwo
 
 3. अर्जुनः कृष्णं वदति
 arjunaH kqRNaM vaxawi
+అర్జునుడు కృష్ణతో మాట్లాడుతున్నాడు
 
 4. आचार्यः सेनां पश्यति
 AcAryaH senAm paSyawi
+ఆచార్యుడు సేనని చూస్తున్నాడు
 
 5. दुर्योधनः व्यूढं पश्यति
 xuryoXanaH vyUDaM paSyawi
+దుర్యోధనుడు వ్యూఢం చూస్తున్నాడు
 
 6. राजा वचनम् अब्रवीत्
 rAjA vacanam abravIw
+రాజు వచనము మాట్లాడినాడు
 
 7. पाण्डु-पुत्राणां चमूं पश्य
 pANdu-puwrANAM camUM paSya
+పాణ్డురాజు-పుత్రా సైన్యము చూడు
+puwrula
 
 8. सौभद्रः द्रौपदेयाः च महारथाः
-sOBaxraH xrOpadeyAH ca mahAraWAH
+sOBaxraH xrOpaxeyAH ca mahAraWAH sanwi
+సౌభద్రుఢు ద్రౌపదేయుడు మరియు మహారథులు అవుచు
+du is displayed as Du, unnAru
 
 9. धर्म-क्षेत्रे कुरु-क्षेत्रे युयुत्सवः समवेताः
 Xarma-kRewre kuru-kRewre yuyuwsavaH samavewAH
+ధర్మ-క్షేత్రము కురువు-క్షేత్రము యుద్ధమందు ఆసక్తుడు కూడి ఉన్న
+kRewramEna, kuru kRewramaMxu, Asakwulu/Asakwi_kalavAru, unnAru
 
 10. अस्माकं बलं अपर्याप्तम् अस्ति
 asmAkaM balaM  a-paryApwam aswi
+మేము బలము అ-పరి ఆప్ అవుచు
+mA, aparyApwaM ayi/gA uMxi
 
 11. मामकाः पाण्डवाः च किम् अकुर्वत सञ्जय
 mAmakAH pANdavAH ca kim akurvawa saFjaya
+మా వారు పాణ్డవుడు మరియు ఏమిటి చెయ్యి జయించు
+pANdavulu, cesAru, saFjaya(name)
 
 12. आचार्य द्रुपद-पुत्रेण तव शिष्येण धीमता व्यूढां पश्य	
 AcArya xrupaxa-puwreNa wava SiRyeNa XImawA vyUDAM paSya
+ఆచార్యుడా ద్రుపదు-పుత్ర నువ్వు శిష్యుడు ధీమంతుడితో వి వహ్ చూడు
+XImaMwudEna, nI, SiRyudEna, puwrudi cewa ceyabadina vyUDam 
 
 13. अत्र शूराः महेष्वासाः भीम-अर्जुन-समाः युधि सन्ति
 awra SUrAH maheRvAsAH BIma-arjuna-samAH yuXi sanwi
+ఇక్కడ శూర విలుకారుడు భీము-అర్జును-సమా యుద్ధమున అవుచు
+SUrulu, vilukArulu, samAnulu?, unnAru
 
 14. युयुधानः विराटः च द्रुपदः च महारथः सन्ति
 yuyuXAnaH virAtaH ca xrupaxaH ca mahAraWaH sanwi
+యుయుధానుడు విరాటుడు మరియు ద్రుపదుడు మరియు మహారథుడు అవుచు
+unnAru
 
 15. anye ca bahavaH SUrAH maw-arWe wyakwa-jIviwAH
+అన్య మరియు బహు శూర మత్-అర్థ త్యక్త-జీవించువాడు
