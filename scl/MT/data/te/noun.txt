@@ -62,7 +62,7 @@ sEnyam,napuM,sEnyaM,napuM
 siMha,puM,saiMhaM^BAri^BIma,napuM
 SiRya,puM,SiRyudu,puM
 sIwA,swrI,sIwa,swrI
-sOBaxra,puM,sOBaxruDu,puM
+sOBaxra,puM,sOBaxrudu,puM
 sOmaxawwi,puM,sOmaxawwudu,puM
 sUra,puM,sUrudu,puM
 Svewa,puM,svewa^welupu,napuM
