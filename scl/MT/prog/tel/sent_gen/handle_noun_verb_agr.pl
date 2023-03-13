@@ -37,6 +37,10 @@ Amba Kulkarni
 
 ambapradeep@gmail.com
 
+Telugu: Parameswari Krishnamurthy
+
+parameshkrishnaa@gmail.com
+
 License: GPL
 
 =cut

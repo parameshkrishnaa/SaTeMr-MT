@@ -54,7 +54,7 @@ aS1,ap,sk,v,anuBaviMcu^vyApwiMcu,vyApwO_saMGAwe_ca ## after discussion I have ch
 as1,ap,sk,v,velYlu^wIsukonucu^prakASiMcu,gawi-xIpwi-AxAneRu  
 as1,pp,sk,v,jA^prakAsiMcu^le,gawi-xIpwi-AxAneRu
 As1,pp,sk,v,kUrcuni,upaveSane
-as2,pp,ak,v,avucu^agu^kalugu,Buvi
+as2,pp,ak,v,uMdu^agu^kalugu,Buvi
 as2,pp,sk,v,uMdu,Buvi
 aS2,pp,sk,v,winu^BujiMcu,Bojane
 ava_Ap1,pp,sk,v,vyApiMcu^prApwiMcu,NW
