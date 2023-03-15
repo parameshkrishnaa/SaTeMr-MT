@@ -5,7 +5,7 @@ rAmaH vanam gacCawi
 2. रामेण सह सीता वनं गच्छति
 rAmeNa saha sIwA vanaM gacCawi
 రాముడు కలిసి సీత అడవికి వెళ్లుతోంది
-rAmudiwo
+rAmudu should be rAmudiwo
 
 3. अर्जुनः कृष्णं वदति
 arjunaH kqRNaM vaxawi
@@ -18,50 +18,62 @@ AcAryaH senAm paSyawi
 5. दुर्योधनः व्यूढं पश्यति
 xuryoXanaH vyUDaM paSyawi
 దుర్యోధనుడు వ్యూఢం చూస్తున్నాడు
+vyUDaM should be vyUDaMni
 
 6. राजा वचनम् अब्रवीत्
 rAjA vacanam abravIw
 రాజు వచనము మాట్లాడినాడు
+vacanaM should be vacanamuni
 
 7. पाण्डु-पुत्राणां चमूं पश्य
 pANdu-puwrANAM camUM paSya
 పాణ్డురాజు-పుత్రా సైన్యము చూడు
-puwrula
+puwrA should be puwrula, sEnyamu should be sEnyamuni
 
 8. सौभद्रः द्रौपदेयाः च महारथाः सन्ति
 sOBaxraH xrOpaxeyAH ca mahAraWAH sanwi
 సౌభద్రుఢు ద్రౌపదేయుడు మరియు మహారథులు అవుచు
-du is displayed as Du, unnAru
+ should be unnAru instead of untunnAru. In usage, unnAru represents present tense and past tense as well. untunnAru means more like 'living'
 
 9. धर्म-क्षेत्रे कुरु-क्षेत्रे युयुत्सवः समवेताः
 Xarma-kRewre kuru-kRewre yuyuwsavaH samavewAH
 ధర్మ-క్షేత్రము కురువు-క్షేత్రము యుద్ధమందు ఆసక్తుడు కూడి ఉన్న
-kRewramEna, kuru kRewramaMxu, Asakwulu/Asakwi_kalavAru, unnAru
+kRewramu should be kRewramEna, kuruvu should be kuru, kRewramu should be kRewramaMxu, Asakwudu should be Asakwulu/Asakwi_kalavAru, unna should be unnAru
 
 10. अस्माकं बलं अपर्याप्तम् अस्ति
 asmAkaM balaM  a-paryApwam aswi
-మేము బలము అ-పరి ఆప్ అవుచు
-mA, aparyApwaM ayi/gA uMxi
+మేము బలము అ-పరి ఆప్ ఉంటున్నాడు
+memu should be mA, a-pari should be aparyApwaM ayi/gA uMtunnAdu should be uMxi
 
 11. मामकाः पाण्डवाः च किम् अकुर्वत सञ्जय
 mAmakAH pANdavAH ca kim akurvawa saFjaya
-మా వారు పాణ్డవుడు మరియు ఏమిటి చెయ్యి జయించు
-pANdavulu, cesAru, saFjaya(name)
+మా వారు పాణ్డవుడు మరియు ఏమిటి చేసినారు సంజయుడు
+pANdavudu should be pANdavulu, emiti should be emi, cesAru is better, saFjaya(should be vocative)
 
 12. आचार्य द्रुपद-पुत्रेण तव शिष्येण धीमता व्यूढां पश्य	
 AcArya xrupaxa-puwreNa wava SiRyeNa XImawA vyUDAM paSya
 ఆచార్యుడా ద్రుపదు-పుత్ర నువ్వు శిష్యుడు ధీమంతుడితో వి వహ్ చూడు
-XImaMwudEna, nI, SiRyudEna, puwrudi cewa ceyabadina vyUDam 
+XImawA should be XImaMwudEna, nuvvu should be nI, SiRyudu should be SiRyudEna, xrupaxu puwra should be xrupaxa puwrudi cewa ceyabadina vi vah should be vyUDamni
 
 13. अत्र शूराः महेष्वासाः भीम-अर्जुन-समाः युधि सन्ति
 awra SUrAH maheRvAsAH BIma-arjuna-samAH yuXi sanwi
 ఇక్కడ శూర విలుకారుడు భీము-అర్జును-సమా యుద్ధమున అవుచు
-SUrulu, vilukArulu, samAnulu?, unnAru
+SUra should be SUrulu, vilukArudu should be vilukArulu, samA should be samAnulu?, yuxXamuna should be yuxXamaMxu, avucu should be unnAru
 
 14. युयुधानः विराटः च द्रुपदः च महारथः सन्ति
 yuyuXAnaH virAtaH ca xrupaxaH ca mahAraWaH sanwi
-యుయుధానుడు విరాటుడు మరియు ద్రుపదుడు మరియు మహారథుడు అవుచు
-unnAru
+యుయుధానుడు విరాటుడు మరియు ద్రుపదుడు మరియు మహారథుడు ఉంటున్నాడు
+untunnAdu should be unnAru
 
-15. anye ca bahavaH SUrAH maw-arWe wyakwa-jIviwAH
+15. anye ca bahavaH SUrAH maw-arWe wyakwa-jIviwAH sanwi
 అన్య మరియు బహు శూర మత్-అర్థ త్యక్త-జీవించువాడు
+
+1. xqRtvA wu pANdava-anIkam vyUDam xuryoXanaH waxA AcAryam upa-safgamya rAjA vacanam abravIw
+చూడు కాని పాణ్డవు-అనీక వ్యూఢం దుర్యోధనుడు ఆ సమయంలో ఆచార్యుడితో సమ్ గమ్ రాజు వచనము మాట్లాడినాడు
+pANdavu-anIkam should be pANdavula anIkamunu
+vyUDaM should be vyUDaM ni
+AcAryudiwo should be AcAryudini
+sam_gam should be samIpiMci, vacanam should be vacanamuni
+
+
+2. 
