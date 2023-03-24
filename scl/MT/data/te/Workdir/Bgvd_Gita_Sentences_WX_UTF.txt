@@ -110,15 +110,16 @@ didn't get output
 
 10. ayaneRu ca sarveRu yaWA-BAgam avasWiwAH BIRmam eva aBirakRanwu BavanwaH sarve eva hi
 అయన మరియు సర్వం యథా-భాగ అవ ష్థా భీష్మ మాత్రమే అవ్య్ రక్షించు మీరు అందరు మాత్రమే అవ్య్ కద
-
+ayana should be sWAnaMlo, sarveRu should be anni, BAga should be BAgAllo, avasWiwAH should be uMdAli/nilabadAli, BIRma should be BIRmudini, aBirakRanwu should be rakRiMcAli, second eva should be kUda. 
 
 11. wasya saFjanayan harRam kuru-vqxXaH piwAmahaH siMha-nAxam vinaxya uccEH SafKam xaXmO prawApavAn
 అతను జనియించు సంతోషం కురువు-వృద్ధుడు పితామహుడు సఇంహ-నాద వి ణద్ పైకి శఙ్ఖం ఊదినాడు ప్రతాప
 
-
+janiyiMcu should be janiyiMcucu, vqxXaH should be vqxXudu, piwAmahudu, vinaxya should be ceyucu, ucCEH should be gattigA, prawApa should be prawApavaMwudEna
 
 12.wawaH SafKAH ca BeryaH ca paNavAnaka-gomuKAH sahasA eva aByahanyanwa saH SabxaH wumulaH aBavaw
 అక్కడనుండి శఙ్ఖం మరియు భేరీ మరియు పణవానక-గోముఖా హఠాత్తుగా మాత్రమే అవ్య్ దాడి చేయు అతను శబ్దము యుద్ధమందు ధ్వని భూ ప్ప్ స్క్
+akkadanuMdi should be AwaruvAwa, xAdi ceyu should be m(r)ogiMcabadinavi. awanu should be A,  
 
 13. wawaH SvewEH hayEH yukwe mahawi syanxane sWiwO mAXavaH pANdavaH ca eva xivyO SafKO praxaXmawuH
 అక్కడనుండి స్వేత అశ్వములతో యుక్తి మహ్ ప్ప్ స్క్ స్యన్దనా స్థితి మాధవుడు పాణ్డురాజు మరియు మాత్రమే అవ్య్ దివ్యములు శఙ్ఖం పూరించు
