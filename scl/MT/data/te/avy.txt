@@ -188,14 +188,14 @@ purawaH,avy,eVxurugA^eVxuta
 qwe,avy,lekuMdA
 sAci,avy,vakramugA^addamugA
 sAkRAw,avy,sAkRAw^prawyakRaM
-sAkam,avy,wo_kalisi^wo^wo_sahA^wo_kUdi
+sAkam,avy,kalisi^wo^wo_sahA^wo_kUdi
 sAmi,avy,arXaM^sagaM
 sAmprawam,avy,praswuwaM^ippudu
 sArXam,avy,wo_kalisi^wo^wo_sahA^wo_kUdi
 sArawaH,avy,balamuwo^Xanamuwo
 sAw,avy,lAgA
 sAyam,avy,saMXyAkAlaM^sAyaMkAlaM
-saha,avy,wo_kalisi^wo_kUdi^wo
+saha,avy,kalisi^wo_kUdi^wo
 sahasA,avy,haTAwwugA^SIGraM^oVkkasArigA
 sahasraSaH,avy,veyi^sahasraM^velallo
 sahasrakqwvaH,avy,veyisArlu

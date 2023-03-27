@@ -51,7 +51,7 @@ sub add_wo{
 
        #If the word is karwA, and
 
-       if(${$var_nm}[$morph_kaaraka_anal] =~ /<rel_nm:karma><relata_pos:([0-9]+)>/){
+       if(${$var_nm}[$morph_kaaraka_anal] =~ /<rel_nm:.*karma><relata_pos:([0-9]+)>/){
          $verb_pos = $1;
          $karma_found = 1;
 	 $karma_pos=$j;
@@ -64,6 +64,9 @@ sub add_wo{
              $tel_verb = $1;
              if($EXCPT_WO{$tel_verb} == 1) {
                  ${$var_nm}[$ana_fld_for_calling_gen_after_lwg] =~ s/^([^ ]+) ([^ ]+) ([^ ]+) ([^ ]+) ([^ ]+) ni/$1 $2 $3 $4 $5 wo/;
+		 open(TMP,">/tmp/_11");
+                 print TMP ${$var_nm}[$ana_fld_for_calling_gen_after_lwg];
+		 close TMP;
 	 }
           }
   }
