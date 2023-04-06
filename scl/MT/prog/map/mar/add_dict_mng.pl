@@ -44,7 +44,6 @@ $PRATIPADIKAM{$1}=$3;
 $NOUN{$key}=$val;
 }
 close(TMP);
-
 open(TMP,"$Data_Path/mr/pronoun.txt") || die "Can't open pronoun.txt for reading";
 while(<TMP>) {
 chomp;
@@ -535,7 +534,7 @@ my $cat  = "";
 sub get_noun_features{
 my($in) = @_;
 my $ans = "";
-# print" in=$in AAA \n";
+#print" in=$in AAA \n";
   if($in =~ /^.*rt:([^;]+).*lifgam:([^;]+).*viBakwiH:([^;]+).*vacanam:([^;]+).*rel_nm:([^;]+)/){
      $ans = join(":",$1,$2,$3,$4,$5);
   } elsif($in =~ /^.*rt:([^;]+).*lifgam:([^;]+).*viBakwiH:([^;]+).*vacanam:([^;]+)/){

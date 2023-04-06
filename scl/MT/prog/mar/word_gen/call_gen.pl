@@ -91,11 +91,23 @@ else {
 		$wrd=$rt."_".$tam;
 	     }
 =cut
-      $wrd="^".$rt."<pos:".$cat."><tam:".$tam."><gender:any><number:pl><person:2>\$"; 
+$num=~s/s/sg/g;
+$num=~s/p/pl/g;
+$num=~s/a/any/g;
+$per=~s/a/any/g;
+$gen=~s/m/nm/g;
+	  if($cat eq "v") {
+$gen=~s/nn/n/g;
+$gen=~s/nm/m/g;
+		  $wrd="^".$rt."<pos:".$cat."><tam:".$tam."><gender:".$gen."><number:".$num."><person:".$per.">\$"; 
+		  #$wrd="^".$rt."<pos:".$cat."><tam:".$tam."><gender:any><number:pl><person:2>\$"; 	#works for gacCawi
+  } else {
+      $wrd="^".$rt."<pos:".$cat."><gender:".$gen."><number:".$num."><parsarg:".$tam.">\$"; 
+  }
       #jA<pos:v><tam:wo><gender:any><number:pl><person:2>
       print TMP $wrd;
       close (TMP);
-      system("/usr/bin/lt-proc -c -g  $SCLINSTALLDIR/MT/prog/mar/word_gen/marathi_gen-30032023.bin < /tmp/mar_in > /tmp/mar_out");
+      system("/usr/bin/lt-proc -c -g  $SCLINSTALLDIR/MT/prog/mar/word_gen/mar_gen.bin < /tmp/mar_in > /tmp/mar_out");
       open(MARGEN,"</tmp/mar_out");
       $out=<MARGEN>;
       $out=~s/\/.*//;
