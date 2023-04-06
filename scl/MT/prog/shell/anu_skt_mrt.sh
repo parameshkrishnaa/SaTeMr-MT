@@ -36,22 +36,30 @@ my_converters (){
      my_converter="$SCLINSTALLDIR/converters/wx2utf8roman.out"
      my_converter_wxHindi="$SCLINSTALLDIR/converters/wx2utf8roman.out"
   fi
+  if [ $OUTSCRIPT = "WX" ]; then
+     my_converter="$SCLINSTALLDIR/converters/wx2utf8roman.out"
+     my_converter_wxHindi="$SCLINSTALLDIR/converters/wx2utf8roman.out"
+  fi
 
   if [ $OUTSCRIPT = "DEV" ]; then
      my_converter="$SCLINSTALLDIR/converters/wx2utf8.sh $SCLINSTALLDIR"
      dev_converter="$SCLINSTALLDIR/converters/wx2utf8.sh $SCLINSTALLDIR"
      my_converter_wxHindi="$SCLINSTALLDIR/converters/wxHindi-utf8.sh $SCLINSTALLDIR"
   fi
+  if [ $OUTSCRIPT = "Telugu" ]; then
+     my_converter="$SCLINSTALLDIR/converters/wx2utf8.sh $SCLINSTALLDIR"
+     dev_converter="$SCLINSTALLDIR/converters/wx2utf8.sh $SCLINSTALLDIR"
+     my_converter_wxTelugu="$SCLINSTALLDIR/converters/wx2utf8_tlg.sh $SCLINSTALLDIR"
+  fi
 }
 
 display_usage () {
-    echo "Usage: anu_skt_hnd.sh <file> tmp_dir_path hi [DEV|IAST|VH] [NO|YES] [UoHyd|GH] [NO|Partial|Full] [ECHO|NOECHO] [D]."
+    echo "Usage: anu_skt_mrt.sh <file> tmp_dir_path hi [DEV|IAST|VH] [NO|YES] [UoHyd|GH] [NO|Partial|Full] [ECHO|NOECHO] [D]."
 }
 
 set_tmp_path () {
   fbn=`basename $FILE_NM` #fbn = file base name
   temp_files_path=$TMP_DIR_PATH/${dnm}/tmp_$fbn
-
   if [ -f "tmp_$fbn"  ] ; then 
     echo "File tmp_$fbn exists. Remove or rename it, and rerun the command."
   else
@@ -94,33 +102,61 @@ wsd () {
 }
 
 ###########
-
+## Hindi Generator is commented and Telugu generator is called. Param_16Sep2022
 ### Map to hindi
 # Color Code in the 13th field
 # Chunk/LWG in the 14th field
 # map o/p in the 15th field and lwg o/p in 16th field
 # gen o/p in the 17th field
 
-hnd_gen () {
+#hnd_gen () {
+#    $ANU_MT_PATH/interface/add_colorcode.pl < $temp_files_path/$fbn.out |\
+#    $ANU_MT_PATH/chunker/lwg.pl |\
+#    $ANU_MT_PATH/map/add_dict_mng.pl $SCLINSTALLDIR $ANU_MT_PATH/../data hi |\
+#    $ANU_MT_PATH/map/lwg_avy_avy.pl $SCLINSTALLDIR $ANU_MT_PATH/../data hi  |\
+#    $ANU_MT_PATH/hn/sent_gen/agreement.pl $SCLINSTALLDIR $ANU_MT_PATH/../data $ANU_MT_PATH/hn/sent_gen  |\
+#    $ANU_MT_PATH/hn/sent_gen/call_gen.pl $SCLINSTALLDIR  |\
+#    $ANU_MT_PATH/interface/modify_mo_for_display.pl $SCLINSTALLDIR  > $temp_files_path/ttt
+#    mv $temp_files_path/ttt $temp_files_path/$fbn.out
+#}
+
+### telugu Apertium generator
+
+mar_gen(){
     $ANU_MT_PATH/interface/add_colorcode.pl < $temp_files_path/$fbn.out |\
     $ANU_MT_PATH/chunker/lwg.pl |\
-    $ANU_MT_PATH/map/add_dict_mng.pl $SCLINSTALLDIR $ANU_MT_PATH/../data hi |\
-    $ANU_MT_PATH/map/lwg_avy_avy.pl $SCLINSTALLDIR $ANU_MT_PATH/../data hi  |\
-    $ANU_MT_PATH/hn/sent_gen/agreement.pl $SCLINSTALLDIR $ANU_MT_PATH/../data $ANU_MT_PATH/hn/sent_gen  |\
-    $ANU_MT_PATH/hn/sent_gen/call_gen.pl $SCLINSTALLDIR  |\
+    #$ANU_MT_PATH/map/add_dict_mng.pl $SCLINSTALLDIR $ANU_MT_PATH/../data te |\
+    $ANU_MT_PATH/map/mar/add_dict_mng.pl $SCLINSTALLDIR $ANU_MT_PATH/../data mr |\
+    $ANU_MT_PATH/map/mar/lwg_avy_avy.pl $SCLINSTALLDIR $ANU_MT_PATH/../data mr  |\
+    $ANU_MT_PATH/mar/sent_gen/agreement.pl $SCLINSTALLDIR $ANU_MT_PATH/../data $ANU_MT_PATH/tel/sent_gen  |\
+    $ANU_MT_PATH/mar/word_gen/call_gen.pl $SCLINSTALLDIR  |\
     $ANU_MT_PATH/interface/modify_mo_for_display.pl $SCLINSTALLDIR  > $temp_files_path/ttt
     mv $temp_files_path/ttt $temp_files_path/$fbn.out
 }
-
 ##########
   hnd_tr () {
+  if [ $OUTSCRIPT = "Telugu" ]; then
+    $ANU_MT_PATH/translation/translate.sh $SCLINSTALLDIR $my_converter_wxTelugu < $temp_files_path/$fbn.out > $temp_files_path/../${fbn}_trnsltn
+  fi
+  if [ $OUTSCRIPT = "IAST" ]; then
     $ANU_MT_PATH/translation/translate.sh $SCLINSTALLDIR $my_converter_wxHindi < $temp_files_path/$fbn.out > $temp_files_path/../${fbn}_trnsltn
+  fi
+  if [ $OUTSCRIPT = "Hindi" ]; then
+    $ANU_MT_PATH/translation/translate.sh $SCLINSTALLDIR $my_converter_wxHindi < $temp_files_path/$fbn.out > $temp_files_path/../${fbn}_trnsltn
+  fi
+  if [ $OUTSCRIPT = "WX" ]; then
+    cut -f17 $temp_files_path/$fbn.out > $temp_files_path/../${fbn}_trnsltn
+  fi
  }
 ##########
 
  generate_anvaya () {
    $ANU_MT_PATH/reader_generator/extract.pl < $temp_files_path/$fbn.out > $temp_files_path/table.tsv
-   $MYPYTHONPATH $ANU_MT_PATH/anvaya/reorder.py -i $temp_files_path/table.tsv -o $temp_files_path/anvaya.tsv -s $SCLINSTALLDIR -t hi
+ #  $MYPYTHONPATH $ANU_MT_PATH/anvaya/reorder.py -i $temp_files_path/table.tsv -o $temp_files_path/anvaya.tsv -s $SCLINSTALLDIR -t hi
+ cut -f1 $temp_files_path/table.tsv > $temp_files_path/1
+   cut -f2 $temp_files_path/table.tsv > $temp_files_path/2
+   cut -f4- $temp_files_path/table.tsv > $temp_files_path/3
+paste $temp_files_path/1 $temp_files_path/2 $temp_files_path/1 $temp_files_path/3 > $temp_files_path/anvaya.tsv
    $my_converter < $temp_files_path/table.tsv > $temp_files_path/table_outscript.tsv
    $dev_converter < $temp_files_path/table.tsv > $temp_files_path/table_dev.tsv
    $my_converter < $temp_files_path/anvaya.tsv > $temp_files_path/anvaya_outscript.tsv
@@ -171,7 +207,8 @@ else
   fi  # PARSE != AVAILABLE ends here
   anaphora
   wsd
-  hnd_gen
+  #hnd_gen
+  mar_gen
   hnd_tr
   generate_anvaya
   anvaya_anu_op

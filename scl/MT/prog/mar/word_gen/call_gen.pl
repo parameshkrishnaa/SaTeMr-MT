@@ -63,18 +63,19 @@ my($in,$show,$not) = @_;
 my($out);
       $in =~ s/\/$//;
       ($rt,$cat,$gen,$num,$per,$tam) = split(/ /,$in);
-      #print "$rt $cat $gen $num $per $tam";
+	$tam=~s/tam://g;
       if($rt =~ /^(.*-)([^\-]+)$/) { $pUrva = $1; $rt = $2;} else {$pUrva = "";}
-      ($rt,$tam) = split(/:/,&handle_hE($rt,$tam));
-      ($rt,$cat) = split(/:/,&handle_Bavaw($rt,$cat));
-      ($rt,$tam) = split(/:/,&handle_apanA($rt,$tam));
+      # ($rt,$tam) = split(/:/,&handle_hE($rt,$tam));
+      #($rt,$cat) = split(/:/,&handle_Bavaw($rt,$cat));
+      #($rt,$tam) = split(/:/,&handle_apanA($rt,$tam));
       if($rt =~ /\-/) {$rt =~ s/\-/__/g;}
  
       #$out = `$SCLINSTALLDIR/MT/prog/hn/word_gen/test/new_gen.out $show $not $rt $cat $gen $num $per $tam`;
       
       ##########################
       open (TMP, ">/tmp/mar_in");
-	if ($cat eq "v") {
+=head
+      if ($cat eq "v") {
       		#veVlYlu<cat:v><gnp:3_pu_e><tam:wunn>
       		$gen=~ s/m/pu/;
       		$num=~ s/s/e/;
@@ -86,12 +87,15 @@ my($out);
 		$num=~ s/s/eka/;
 		#$tam=~ s/2/ni/;
       		$wrd="^".$rt."<cat:".$cat."><num:".$num."><parsarg:".$tam.">\$"; }
-	else {
+else {
 		$wrd=$rt."_".$tam;
 	     }
+=cut
+      $wrd="^".$rt."<pos:".$cat."><tam:".$tam."><gender:any><number:pl><person:2>\$"; 
+      #jA<pos:v><tam:wo><gender:any><number:pl><person:2>
       print TMP $wrd;
       close (TMP);
-      system("/usr/bin/lt-proc -c -g  $SCLINSTALLDIR/MT/prog/mar/word_gen/marathi_morphv1.gen < /tmp/mar_in > /tmp/mar_out");
+      system("/usr/bin/lt-proc -c -g  $SCLINSTALLDIR/MT/prog/mar/word_gen/marathi_gen-30032023.bin < /tmp/mar_in > /tmp/mar_out");
       open(MARGEN,"</tmp/mar_out");
       $out=<MARGEN>;
       $out=~s/\/.*//;
@@ -99,7 +103,6 @@ my($out);
       close(MARGEN);
   #genWrd;
   #   print $out;
-
       ########################
 =head
 =cut
