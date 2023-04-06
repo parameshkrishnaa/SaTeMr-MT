@@ -125,10 +125,10 @@ wsd () {
 mar_gen(){
     $ANU_MT_PATH/interface/add_colorcode.pl < $temp_files_path/$fbn.out |\
     $ANU_MT_PATH/chunker/lwg.pl |\
-    #$ANU_MT_PATH/map/add_dict_mng.pl $SCLINSTALLDIR $ANU_MT_PATH/../data te |\
+    #$ANU_MT_PATH/map/add_dict_mng.pl $SCLINSTALLDIR $ANU_MT_PATH/../data mr |\
     $ANU_MT_PATH/map/mar/add_dict_mng.pl $SCLINSTALLDIR $ANU_MT_PATH/../data mr |\
     $ANU_MT_PATH/map/mar/lwg_avy_avy.pl $SCLINSTALLDIR $ANU_MT_PATH/../data mr  |\
-    $ANU_MT_PATH/mar/sent_gen/agreement.pl $SCLINSTALLDIR $ANU_MT_PATH/../data $ANU_MT_PATH/tel/sent_gen  |\
+    $ANU_MT_PATH/mar/sent_gen/agreement.pl $SCLINSTALLDIR $ANU_MT_PATH/../data $ANU_MT_PATH/mar/sent_gen  |\
     $ANU_MT_PATH/mar/word_gen/call_gen.pl $SCLINSTALLDIR  |\
     $ANU_MT_PATH/interface/modify_mo_for_display.pl $SCLINSTALLDIR  > $temp_files_path/ttt
     mv $temp_files_path/ttt $temp_files_path/$fbn.out
