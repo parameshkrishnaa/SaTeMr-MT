@@ -109,15 +109,20 @@ cm}
 		$per=~s/a/any/g;
 		#$tam=~ s/2/ni/;
 		#$wrd="^".$rt."<cat:".$cat."><num:".$num."><parsarg:".$tam.">\$"; }
+		if (($cat eq "noun") ) {
+			$wrd="^".$rt."<lcat:".$cat."><gen:".$gen."><num:".$num."><per:3><cm:".$tam."><suffix:".$tam.">\$"; }
+		else {
 			$wrd="^".$rt."<lcat:".$cat."><gen:".$gen."><num:".$num."><per:".$per."><cm:".$tam."><suffix:".$tam.">\$"; }
-		#print "$wrd";
+	}		#print "$wrd";
 	else {
 		$wrd=$rt."_".$tam;
 	     }
       print TMP $wrd;
       close (TMP);
 	  #system("/usr/bin/lt-proc -c -g  $SCLINSTALLDIR/MT/prog/tel/word_gen/telugu-apertium.mogen < /tmp/tel_in > /tmp/tel_out");
-	  system("/usr/bin/lt-proc -c -g  $SCLINSTALLDIR/MT/prog/tel/word_gen/tel_apertium_v1.1.mogen < /tmp/tel_in > /tmp/tel_out");
+	  #system("/usr/bin/lt-proc -c -g  $SCLINSTALLDIR/MT/prog/tel/word_gen/tel_apertium_v1.1.mogen < /tmp/tel_in > /tmp/tel_out");
+	  #updated new generator 17/04/2023
+	  system("/usr/bin/lt-proc -c -g  $SCLINSTALLDIR/MT/prog/tel/word_gen/tel_apertium_v2.mogen < /tmp/tel_in > /tmp/tel_out");
       open(TELGEN,"</tmp/tel_out");
       $out=<TELGEN>;
       $out=~s/\/.*//;
