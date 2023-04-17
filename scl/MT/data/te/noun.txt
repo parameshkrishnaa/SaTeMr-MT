@@ -1885,7 +1885,7 @@ yuxXa,puM,yuxXaM,napuM
 yuyuwsu,napuM,yuxXamu_ceyu_Asakwi_kalavAdu,puM
 yuyuwsu,puM,yuxXamu_ceyu_Asakwi_kalavAdu,puM
 yuyuXAna,puM,yuyuXAnudu,puM
-vana,napuM,vanaM^adavi^wota,napuM
+vana,napuM,adavi^vanaM^wota,napuM
 oxana,napuM,annaM,napuM
 gIwA,swrI,gIwa^BagavaxgIwa,napuM
 sIwA,swrI,sIwa ,swrI
