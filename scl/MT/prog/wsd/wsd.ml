@@ -201,7 +201,7 @@ value upapaxa_vib = [ ("2_aBi","2u6");
 		("2_Xik","2u6");
 		("3_alam","3u");
 		("3_nAnA","3u");
-		("3_saha","3u");
+		("3_saha","3");
 		("3_sAkam","3u");
 		("3_sama","3u");
 		("3_samA","3u");

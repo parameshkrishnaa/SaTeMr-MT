@@ -82,6 +82,9 @@ my($out);
 		if (($gen eq "f")&&($num eq "sg")){
 		$gen = "fn";
 		}
+		if (($gen eq "m")&&($num eq "pl")){
+		$gen = "mf";
+		}
 		#veVlYlu<cat:v><gnp:3_pu_e><tam:wunn>
 			#$gen=~ s/m/pu/;
       		$tam=~ s/tunn/wunn/;

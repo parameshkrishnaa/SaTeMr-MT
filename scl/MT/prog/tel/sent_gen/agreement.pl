@@ -131,7 +131,7 @@ chomp;
 $key = $_;
 $EXCPT_KI{$key}=1;
 }
-open(TMP,"$Data_Path/te/wo_karma_motion_verbs.txt") || die "Can't open ne_excptnl_verbs.txt for reading";
+open(TMP,"$Data_Path/te/wo_karma_speech_verbs.txt") || die "Can't open ne_excptnl_verbs.txt for reading";
 while(<TMP>) {
 chomp;
 $key = $_;
