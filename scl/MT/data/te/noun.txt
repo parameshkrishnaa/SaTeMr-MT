@@ -1872,7 +1872,7 @@ yogin,puM,yogi,puM
 yoni,puM,garBASrayaM^janmasWAnaM^yoni,napuM
 yOvana,napuM,yOvvanam,napuM
 yoXa,puM,yoXudu,puM
-yoxXukAma,puM,yuxXamu_ceyu_Asakwi_kalavAdu,puM
+yoxXukAma,puM,yuxXamu_ceyu_Asakwi_kala_vAdu,puM
 yuga,napuM,yugaM,napuM
 yukwa,puM,yogyamEnaxi,napuM
 yuX,napuM,yuxXaM^yuxXam_ceyadaM,napuM
@@ -1882,8 +1882,8 @@ yuXAmanyu,puM,yuXAmanyudu,puM
 yuXiRTira,puM,yuXiRTirudu,puM
 yuxXa,napuM,yuxXaM,napuM
 yuxXa,puM,yuxXaM,napuM
-yuyuwsu,napuM,yuxXamu_ceyu_Asakwi_kalavAdu,puM
-yuyuwsu,puM,yuxXamu_ceyu_Asakwi_kalavAdu,puM
+yuyuwsu,napuM,yuxXamu_ceyu_Asakwi_kala_vAdu,puM
+yuyuwsu,puM,yuxXamu_ceyu_Asakwi_kala_vAdu,puM
 yuyuXAna,puM,yuyuXAnudu,puM
 vana,napuM,adavi^vanaM^wota,napuM
 oxana,napuM,annaM,napuM
