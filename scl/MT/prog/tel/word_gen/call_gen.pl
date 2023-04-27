@@ -76,6 +76,14 @@ my($out);
 
       ##########################
       open (TMP, ">/tmp/tel_in");
+      	
+      #mA_vAdu, where we need generation for vAdu.
+      if($rt=~/(.*)_(.*)/){
+	$rt=$2;
+	$rt1=$1;
+	$flag=1;
+	}
+
       # open (TMP, ">>/tmp/tel_in"); # to get info of all words
 	if ($cat eq "v") {
 		$cat = "verb";
@@ -90,7 +98,7 @@ my($out);
       		$tam=~ s/tunn/wunn/;
 			if($gen=~/m|f|n/) {
 				$per = "3";
-cm}
+			}
 			#if(($per=~/s/)&&($gen=~/pu/)){
 			#$wrd="^".$rt."<cat:".$cat."><gnp:23\_".$num."><tam:".$tam.">\$"; 
 			#}
@@ -107,17 +115,35 @@ cm}
 		$cat=~s/^P$/pronoun/g;
 		$gen=~s/m/any/g; #for time being gender is considered any for vanaM
 		$per=~s/a/any/g;
+		
+		#since "vAdu" and "vAlYlu" are different pdgm, this mapping is done Apr 21_2023, Param
+		if (($rt eq "vAdu")&&($cat eq "noun")){
+		$cat="pronoun"; $gen="m"; $per="3";
+			if ($num eq "pl") { $gen ="mf"; $rt="vAlYlu"; }
+		}
+		if (($rt eq "awanu")&&($num eq "pl")){
+		$rt="vAlYlu"; $cat="pronoun"; $gen="mf"; $per="3";
+		}
+
 		#$tam=~ s/2/ni/;
 		#$wrd="^".$rt."<cat:".$cat."><num:".$num."><parsarg:".$tam.">\$"; }
+		if (($cat eq "noun") ) {
+			$wrd="^".$rt."<lcat:".$cat."><gen:".$gen."><num:".$num."><per:3><cm:".$tam."><suffix:".$tam.">\$"; }
+		else {
 			$wrd="^".$rt."<lcat:".$cat."><gen:".$gen."><num:".$num."><per:".$per."><cm:".$tam."><suffix:".$tam.">\$"; }
-		#print "$wrd";
+	}		#print "$wrd";
 	else {
 		$wrd=$rt."_".$tam;
 	     }
+	
+	if ($flag == 1) { $wrd=$rt1."_".$wrd; $flag=0}
+
       print TMP $wrd;
       close (TMP);
 	  #system("/usr/bin/lt-proc -c -g  $SCLINSTALLDIR/MT/prog/tel/word_gen/telugu-apertium.mogen < /tmp/tel_in > /tmp/tel_out");
-	  system("/usr/bin/lt-proc -c -g  $SCLINSTALLDIR/MT/prog/tel/word_gen/tel_apertium_v1.1.mogen < /tmp/tel_in > /tmp/tel_out");
+	  #system("/usr/bin/lt-proc -c -g  $SCLINSTALLDIR/MT/prog/tel/word_gen/tel_apertium_v1.1.mogen < /tmp/tel_in > /tmp/tel_out");
+	  #updated new generator 17/04/2023
+	  system("/usr/bin/lt-proc -c -g  $SCLINSTALLDIR/MT/prog/tel/word_gen/tel_apertium_v2.mogen < /tmp/tel_in > /tmp/tel_out");
       open(TELGEN,"</tmp/tel_out");
       $out=<TELGEN>;
       $out=~s/\/.*//;

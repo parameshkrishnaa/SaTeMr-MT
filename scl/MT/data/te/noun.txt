@@ -535,7 +535,7 @@ harRaNa,napuM,harRaM,napuM
 haswa,puM,haswamu,napuM
 haswin,puM,woVMdamu_kalaxi^enugu,napuM
 havis,napuM,havis^homa_xravyamu,napuM
-haya,puM,hayamu^gurramu,napuM
+haya,puM,aSvaMhayamu^gurramu,napuM
 hewu,puM,hewuvu^kAraNamu,napuM
 hEwuka,napuM,hewuvAxi^hewuvAxamu_kalavAdu,puM
 hEwuka,puM,hewuvAxi^hewuvAxamu_kalavAdu,puM
@@ -727,7 +727,7 @@ kulaGna,puM,kulamunu_nASamu_ceyuvAdu,puM
 kunwI,swrI,kunwi,swrI
 kunwiBoja,puM,kunwiBojudu,puM
 kUrma,puM,wAbelu^viRNu_avawAraM,napuM
-kuru,puM,kuru_xeSaM^kuru,napuM
+kuru,puM,kuru_xeSaM^kuru^kOrava,napuM
 kurunanxana,puM,kurunaMxanudu,puM
 kurusawwama,puM,kurusawwamudu^kuruSreRtudu,puM
 kuSa,puM,kuSa^xarBamu,napuM
@@ -818,7 +818,7 @@ meXA,swrI,meXassu^XAraNA_Sakwi^buxXi,napuM
 meXas,puM,meXassu,napuM
 meXAvin,puM,meXAvi,puM
 miSra,puM,miSraM,napuM
-miwra,napuM,sUryudu^miwrudu,napuM
+miwra,napuM,miwrudu,napuM
 miwra,puM,sUryudu^miwrudu,napuM
 moGa,napuM,vyarWaM^nirarWakaM,napuM
 moha,puM,mohaM,napuM
@@ -962,7 +962,7 @@ pApa,napuM,pApaM,napuM
 pApa,puM,pApaM,napuM
 pApman,puM,pApaM^aparAXaM^xuRta,napuM
 para,napuM,paramu^anyamu^iwara,napuM
-parA,swrI,SreRTamEnaxi,napuM
+parA,swrI,SreRTaM^aXikaM^awyaMwaM,napuM
 parama,napuM,parama^muKya^aXika^SreRTaM,napuM
 parama,puM,parama^muKya^aXika^SreRTaM,napuM
 paramA,swrI,muKya^SreRTaM^praXAnaM,napuM
@@ -1180,7 +1180,7 @@ safgin,napuM,snehaSIludu,puM
 safgin,puM,snehaSIludu,puM
 safgraha,puM,safgrahaM^sekariMcu^safkRipwa,napuM
 safgrAma,puM,safgrAmaM^yuxXaM^kalahaM^poru,napuM
-saFjaya,puM,saFjayudu,puM
+saFjaya,puM,saMjayudu,puM
 saFjFaka,napuM,peru,napuM
 saFjFaka,puM,peru,napuM
 saFjFiwa,napuM,perugalaxi,napuM
@@ -1772,7 +1772,7 @@ xevaxawwa,puM,xevawa^xevaxawwaM,puM
 xeveSa,puM,xevawala_praBuvu,puM
 xEvI,swrI,xevawA_saMbaMXiwa,napuM
 xEwya,puM,rAkRasa,puM
-XImaw,puM,jFAnamu_kalavAdu^buxXimaMwudu,puM
+XImaw,puM,XImaMwudu^jFAnamu_kalavAdu^buxXimaMwudu,puM
 xIpa,puM,xIpaM,napuM
 xIpwa,napuM,prakASiMpabadunaxi,napuM
 xIpwa,puM,prakASiMpabadunaxi,napuM
@@ -1872,7 +1872,7 @@ yogin,puM,yogi,puM
 yoni,puM,garBASrayaM^janmasWAnaM^yoni,napuM
 yOvana,napuM,yOvvanam,napuM
 yoXa,puM,yoXudu,puM
-yoxXukAma,puM,yuxXamu_ceyu_Asakwi_kalavAdu,puM
+yoxXukAma,puM,yuxXamu_ceyu_Asakwi_kala_vAdu,puM
 yuga,napuM,yugaM,napuM
 yukwa,puM,yogyamEnaxi,napuM
 yuX,napuM,yuxXaM^yuxXam_ceyadaM,napuM
@@ -1882,8 +1882,8 @@ yuXAmanyu,puM,yuXAmanyudu,puM
 yuXiRTira,puM,yuXiRTirudu,puM
 yuxXa,napuM,yuxXaM,napuM
 yuxXa,puM,yuxXaM,napuM
-yuyuwsu,napuM,yuxXamu_ceyu_Asakwi_kalavAdu,puM
-yuyuwsu,puM,yuxXamu_ceyu_Asakwi_kalavAdu,puM
+yuyuwsu,napuM,yuxXamu_ceyu_Asakwi_kala_vAdu,puM
+yuyuwsu,puM,yuxXamu_ceyu_Asakwi_kala_vAdu,puM
 yuyuXAna,puM,yuyuXAnudu,puM
 vana,napuM,adavi^vanaM^wota,napuM
 oxana,napuM,annaM,napuM
