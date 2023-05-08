@@ -36,7 +36,7 @@ acyuwa,puM,ViRNuvu,puM
 acyuwa,puM,sWiramEnaxi,napuM
 afga,napuM,aMgaM,napuM
 afga,puM,aMgaM,napuM
-aFjali,swrI,aFjali^cewulu_jodiMci_namaskariMcuta,napuM
+aFjali,swrI,aMjali^cewulu_jodiMci_namaskariMcuta,napuM
 aGa,napuM,pApaM^aparAXaM,napuM
 aGa,puM,pApaM^aparAXaM,napuM
 Agama,puM,Agama_SAswraM,napuM
@@ -103,8 +103,8 @@ amqwa,puM,amqwaM^suXa,napuM
 aMSa,puM,aMSaM,napuM
 anaGa,puM,nirxoRaM^nirmalaM,napuM
 anaGa,napuM,nirxoRaM^nirmalaM,napuM
-Anaka,puM,vAyixyamu,napuM
-Anaka,napuM,vAyixyamu,napuM
+Anaka,puM,vAyixyaM,napuM
+Anaka,napuM,vAyixyaM,napuM
 anala,puM,agni^jaTarAgni,napuM
 anAmaya,puM,ArogyaM,napuM
 ananwA,swrI,anaMwaM,napuM
@@ -351,7 +351,7 @@ bAnXava,puM,baMXuvu,puM
 banXu,puM,baMXuvu,puM
 BARA,swrI,BARa,napuM
 BArawa,napuM,BArawa^Barawa_xeSaM,napuM
-BarawarRaBa,puM,BarawarRaBa^BarawaxeSa_rAju,puM
+BarawarRaBa,puM,BarawaxeSa_rAju^BarawarRaBa,puM
 Barawasawwama,puM,Barawasawwama^BarawaSreRTa,puM
 BarawaSreRTa,puM,Barawa_SreRTudu,puM
 Barwq,puM,Barwa^rAju^praBuvu,puM
@@ -406,8 +406,8 @@ BUwi,swrI,BUwi^BAgyamu^ESvaryamu,puM
 buXa,puM,buXudu^paMdiwudu,puM
 buxXi,swrI,buxXi^mawi^meXassu,napuM
 Buyas,napuM,marala^malYli,napuM
-caFcala,puM,caFcalamu,napuM
-caFcala,napuM,caFcalamu,napuM
+caFcala,puM,caMcalaM,napuM
+caFcala,napuM,caMcalaM,napuM
 cakra,puM,cakramu,puM
 cakrin,puM,cakri^cakramu_XariMcuvAdu^viRNuvu^kummari,napuM
 cakRus,napuM,cakRuvu^kannu^newraM,napuM
@@ -1144,7 +1144,7 @@ rakRas,napuM,rAkRasudu,puM
 rAkRasI,swrI,rAkRasi,swrI
 rakRya,puM,rakRiMpaxaginaxi,napuM
 rakRya,napuM,rakRiMpaxaginaxi,napuM
-rAma,puM,priyaM^manoharaM^AnaMxapraxa,napuM
+rAma,puM,priyaM^manoharaM^AnaMxapraxaM,napuM
 rAma,puM,rAmudu^SrI_rAmudu,puM
 raNa,napuM,raNaM^yuxXaM^saMgrAmaM^samaraM,napuM
 raNa,puM,raNaM^yuxXaM^saMgrAmaM^samaraM,napuM
@@ -1171,7 +1171,7 @@ roman,napuM,romamu^cinna_veVMtruka,napuM
 rUkRa,puM,karuku^paruRaM,napuM
 rUpa,napuM,rUpamu,napuM
 ruxra,napuM,ruxra^BayAnaka^Bayafkara,napuM
-ruxra,puM,ruxra^BayAnaka^Bayafkara,napuM
+ruxra,puM,ruxra^BayAnaka^BayaMkara,napuM
 Sabxa,puM,Sabxamu,napuM
 saFcaya,puM,samUhamu,napuM
 safGa,puM,saMGamu^samUhamu^kaliyunaxi^kUduta^sahavAsaM,napuM
