@@ -103,8 +103,8 @@ amqwa,puM,amqwaM^suXa,napuM
 aMSa,puM,aMSaM,napuM
 anaGa,puM,nirxoRaM^nirmalaM,napuM
 anaGa,napuM,nirxoRaM^nirmalaM,napuM
-Anaka,puM,vAyixyamu,napuM
-Anaka,napuM,vAyixyamu,napuM
+Anaka,puM,vAyixyaM,napuM
+Anaka,napuM,vAyixyaM,napuM
 anala,puM,agni^jaTarAgni,napuM
 anAmaya,puM,ArogyaM,napuM
 ananwA,swrI,anaMwaM,napuM
@@ -351,7 +351,7 @@ bAnXava,puM,baMXuvu,puM
 banXu,puM,baMXuvu,puM
 BARA,swrI,BARa,napuM
 BArawa,napuM,BArawa^Barawa_xeSaM,napuM
-BarawarRaBa,puM,BarawarRaBa^BarawaxeSa_rAju,puM
+BarawarRaBa,puM,BarawaxeSa_rAju^BarawarRaBa,puM
 Barawasawwama,puM,Barawasawwama^BarawaSreRTa,puM
 BarawaSreRTa,puM,Barawa_SreRTudu,puM
 Barwq,puM,Barwa^rAju^praBuvu,puM
@@ -400,7 +400,8 @@ brAhmI,swrI,vAkku,napuM
 BraMSa,puM,naSiMcuta^kriMxapadadaM,napuM
 BrAwq,puM,sahoxarudu^wodabuttinavAdu,puM
 BrU,swrI,kanubomma,napuM
-Buja,puM,Bujamu,napuM
+Buja,puM,Buja
+napuM
 BUmi,swrI,BUmi,swrI
 BUwi,swrI,BUwi^BAgyamu^ESvaryamu,puM
 buXa,puM,buXudu^paMdiwudu,puM
@@ -1171,7 +1172,6 @@ roman,napuM,romamu^cinna_veVMtruka,napuM
 rUkRa,puM,karuku^paruRaM,napuM
 rUpa,napuM,rUpamu,napuM
 ruxra,napuM,ruxra^BayAnaka^BayaMkara,napuM
-ruxra,puM,ruxra^BayAnaka^BayaMkara,napuM
 Sabxa,puM,Sabxamu,napuM
 saFcaya,puM,samUhamu,napuM
 safGa,puM,saMGamu^samUhamu^kaliyunaxi^kUduta^sahavAsaM,napuM
