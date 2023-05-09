@@ -143,7 +143,7 @@ my($out);
 	  #system("/usr/bin/lt-proc -c -g  $SCLINSTALLDIR/MT/prog/tel/word_gen/telugu-apertium.mogen < /tmp/tel_in > /tmp/tel_out");
 	  #system("/usr/bin/lt-proc -c -g  $SCLINSTALLDIR/MT/prog/tel/word_gen/tel_apertium_v1.1.mogen < /tmp/tel_in > /tmp/tel_out");
 	  #updated new generator 17/04/2023
-	  system("/usr/bin/lt-proc -c -g  $SCLINSTALLDIR/MT/prog/tel/word_gen/tel_apertium_v2.mogen < /tmp/tel_in > /tmp/tel_out");
+	  system("/usr/bin/lt-proc -c -g  $SCLINSTALLDIR/MT/prog/tel/word_gen/tel_apertium_v2.1.mogen < /tmp/tel_in > /tmp/tel_out");
       open(TELGEN,"</tmp/tel_out");
       $out=<TELGEN>;
       $out=~s/\/.*//;
