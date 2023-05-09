@@ -61,7 +61,7 @@ my($j,$abhihita_lifgam,$abhihita_pos);
         $new_var_nm = "wrd_ana_flds_".$abhihita_pos;
         if (${$new_var_nm}[$ana_fld_for_calling_gen_after_lwg] =~ /^[^ ]+ [^ ]+ ([^ ]+) ([^ ]+)/){
            $abhihita_lifgam = $1;
-           $abhihita_vacanam = $2;
+		   $abhihita_vacanam = $2;	###09052023 
         }
 
 	# In the earlier version, 'ca' was marked as the head. Hence in that case the abhihita_vacanam and abhihita_lifgam were "NW"

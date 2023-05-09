@@ -177,8 +177,9 @@ for ($i=1; $i <= $#wrd_ana+1; $i++){
   &handle_hindi_idio_karma_ko();
   if($DEBUG) {&print_array("STDERR","handle_hindi_idio_karma_ko",$wrd_fld,$morph_kaaraka_anal,$ana_fld_for_calling_gen_after_lwg);}
 
-  &copy_abhihita_gen_num_to_verb();
-  if($DEBUG) {&print_array("STDERR","noun_verb_agr",$wrd_fld,$morph_kaaraka_anal,$ana_fld_for_calling_gen_after_lwg);}
+  ###BG sloka 1.4 telugu verb_noun_agr
+  #&copy_abhihita_gen_num_to_verb();
+  #if($DEBUG) {&print_array("STDERR","noun_verb_agr",$wrd_fld,$morph_kaaraka_anal,$ana_fld_for_calling_gen_after_lwg);}
 
   &handle_kriyAmUla_verb_agr();
   if($DEBUG) {&print_array("STDERR","kriyAmUla_verb_agr",$wrd_fld,$morph_kaaraka_anal,$ana_fld_for_calling_gen_after_lwg);}
@@ -189,8 +190,9 @@ for ($i=1; $i <= $#wrd_ana+1; $i++){
   &karwA_and_karwA_samAnAXikaraNa_agr();
   if($DEBUG) {&print_array("STDERR","pred_adj_agr",$wrd_fld,$morph_kaaraka_anal,$ana_fld_for_calling_gen_after_lwg);}
 
-  &chunk_viSeRaNa();
-  if($DEBUG) {&print_array("STDERR","viSeRaNa_agr",$wrd_fld,$morph_kaaraka_anal,$ana_fld_for_calling_gen_after_lwg);}
+  ###BG sloka 1.4 telugu does not require adj_noun agr
+  #&chunk_viSeRaNa();
+  #if($DEBUG) {&print_array("STDERR","viSeRaNa_agr",$wrd_fld,$morph_kaaraka_anal,$ana_fld_for_calling_gen_after_lwg);}
 
   &handle_RaRTI_lifgam();
   if($DEBUG) {&print_array("STDERR","RaRTI_agr",$wrd_fld,$morph_kaaraka_anal,$ana_fld_for_calling_gen_after_lwg);}
