@@ -96,7 +96,7 @@ my($out);
 		#veVlYlu<cat:v><gnp:3_pu_e><tam:wunn>
 			#$gen=~ s/m/pu/;
 			#$tam=~ s/tunn/wunn/;
-			if($gen=~/m|f|n/) {
+			if($gen=~/^m$|^f$|^n$/) {
 				$per = "3";
 			}
 			#if(($per=~/s/)&&($gen=~/pu/)){

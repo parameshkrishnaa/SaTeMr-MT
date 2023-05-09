@@ -559,8 +559,8 @@ ikRvAku,puM,ikRvAku_vaMSaM,napuM
 inxriya,napuM,inxriyaM^wvagAxi_inxriyamulu,napuM
 inxriyArWa,puM,inxriya_viSayaM,napuM
 iRu,puM,bANaM,napuM
-iRvAsa,puM,vilukAdu,puM
 iRvAsa,puM,villu^Xanussu,napuM
+iRvAsa,puM,vilukArudu,puM
 ISa,puM,ISa^ISvarudu^sqRtikarwa,puM
 ISvara,puM,ISvarudu,puM
 iwara,puM,iwara,napuM

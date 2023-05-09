@@ -21,7 +21,7 @@ Sas,kara~ke
 6,lopala
 7,aMxu
 #7,na      (uwwarAna himAlayAlu unnAyi.)
-7,na
+7,lo
 8,I
 karmaNi_lat,a_badu_wunn
 karmaNi_lat_sma,a_badu_e
