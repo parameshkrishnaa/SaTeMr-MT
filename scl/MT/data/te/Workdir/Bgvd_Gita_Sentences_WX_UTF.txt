@@ -1,0 +1,142 @@
+1. रामः वनं गच्छति
+rAmaH vanam gacCawi
+రాముడు అడవికి వెళ్తున్నాడు
+
+2. रामेण सह सीता वनं गच्छति
+rAmeNa saha sIwA vanaM gacCawi
+రాముడు కలిసి సీత అడవికి వెళ్లుతోంది
+rAmudu should be rAmudiwo
+
+3. अर्जुनः कृष्णं वदति
+arjunaH kqRNaM vaxawi
+అర్జునుడు కృష్ణతో మాట్లాడుతున్నాడు
+
+4. आचार्यः सेनां पश्यति
+AcAryaH senAm paSyawi
+ఆచార్యుడు సేనని చూస్తున్నాడు
+
+5. दुर्योधनः व्यूढं पश्यति
+xuryoXanaH vyUDaM paSyawi
+దుర్యోధనుడు వ్యూఢం చూస్తున్నాడు
+vyUDaM should be vyUDaMni
+
+6. राजा वचनम् अब्रवीत्
+rAjA vacanam abravIw
+రాజు వచనము మాట్లాడినాడు
+vacanaM should be vacanamuni
+
+7. पाण्डु-पुत्राणां चमूं पश्य
+pANdu-puwrANAM camUM paSya
+పాణ్డురాజు-పుత్రా సైన్యము చూడు
+puwrA should be puwrula, sEnyamu should be sEnyamuni
+
+8. सौभद्रः द्रौपदेयाः च महारथाः सन्ति
+sOBaxraH xrOpaxeyAH ca mahAraWAH sanwi
+సౌభద్రుఢు ద్రౌపదేయుడు మరియు మహారథులు అవుచు
+ should be unnAru instead of untunnAru. In usage, unnAru represents present tense and past tense as well. untunnAru means more like 'living'
+
+9. धर्म-क्षेत्रे कुरु-क्षेत्रे युयुत्सवः समवेताः
+Xarma-kRewre kuru-kRewre yuyuwsavaH samavewAH
+ధర్మ-క్షేత్రము కురువు-క్షేత్రము యుద్ధమందు ఆసక్తుడు కూడి ఉన్న
+kRewramu should be kRewramEna, kuruvu should be kuru, kRewramu should be kRewramaMxu, Asakwudu should be Asakwulu/Asakwi_kalavAru, unna should be unnAru
+
+10. अस्माकं बलं अपर्याप्तम् अस्ति
+asmAkaM balaM  a-paryApwam aswi
+మేము బలము అ-పరి ఆప్ ఉంటున్నాడు
+memu should be mA, a-pari should be aparyApwaM ayi/gA uMtunnAdu should be uMxi
+
+11. मामकाः पाण्डवाः च किम् अकुर्वत सञ्जय
+mAmakAH pANdavAH ca kim akurvawa saFjaya
+మా వారు పాణ్డవుడు మరియు ఏమిటి చేసినారు సంజయుడు
+pANdavudu should be pANdavulu, emiti should be emi, cesAru is better, saFjaya(should be vocative)
+
+12. आचार्य द्रुपद-पुत्रेण तव शिष्येण धीमता व्यूढां पश्य	
+AcArya xrupaxa-puwreNa wava SiRyeNa XImawA vyUDAM paSya
+ఆచార్యుడా ద్రుపదు-పుత్ర నువ్వు శిష్యుడు ధీమంతుడితో వి వహ్ చూడు
+XImawA should be XImaMwudEna, nuvvu should be nI, SiRyudu should be SiRyudEna, xrupaxu puwra should be xrupaxa puwrudi cewa ceyabadina vi vah should be vyUDamni
+
+13. अत्र शूराः महेष्वासाः भीम-अर्जुन-समाः युधि सन्ति
+awra SUrAH maheRvAsAH BIma-arjuna-samAH yuXi sanwi
+ఇక్కడ శూర విలుకారుడు భీము-అర్జును-సమా యుద్ధమున అవుచు
+SUra should be SUrulu, vilukArudu should be vilukArulu, samA should be samAnulu?, yuxXamuna should be yuxXamaMxu, avucu should be unnAru
+
+14. युयुधानः विराटः च द्रुपदः च महारथः सन्ति
+yuyuXAnaH virAtaH ca xrupaxaH ca mahAraWaH sanwi
+యుయుధానుడు విరాటుడు మరియు ద్రుపదుడు మరియు మహారథుడు ఉంటున్నాడు
+untunnAdu should be unnAru
+
+15. anye ca bahavaH SUrAH maw-arWe wyakwa-jIviwAH sanwi
+అన్య మరియు బహు శూర మత్-అర్థ త్యక్త-జీవించువాడు
+
+1. xqRtvA wu pANdava-anIkam vyUDam xuryoXanaH waxA AcAryam upa-safgamya rAjA vacanam abravIw
+చూడు కాని పాణ్డవు-అనీక వ్యూఢం దుర్యోధనుడు ఆ సమయంలో ఆచార్యుడితో సమ్ గమ్ రాజు వచనము మాట్లాడినాడు
+pANdavu-anIkam should be pANdavula anIkamunu
+vyUDaM should be vyUDaM ni
+AcAryudiwo should be AcAryudini
+sam_gam should be samIpiMci, vacanam should be vacanamuni
+
+
+2. paSya ewAm pANdu-puwrANAm AcArya mahawIm camUm vyUDAm xrupaxa-puwreNa wava SiRyeNa XImawA
+చూడు ఈమె పాణ్డురాజు-పుత్రా ఆచార్యుడా గోప్పది సైన్యము వి వహ్ ద్రుపదు-పుత్ర నువ్వు శిష్యుడు ధీమంతుడితో
+Ime should be I,  puwrA should be puwrula,  goppaxi should be goppa/goppaxEna,  sEnyamu should be sEnyamuni, xrupaxu puwra should be xrupaxa puwrudi cewa,  nuvvu should be nI SiRyudu should be SiRyudEna,  XImaMwudiwo should be XImaMwudEna. (arrangement of adj and noun).
+
+
+3. awra SUrAH maheRvAsAH BIma-arjuna-samAH yuXi yuyuXAnaH virAtaH ca xrupaxaH ca mahAn-raWaH
+
+ఇక్కడ శూర విలుకారుడు భీము-అర్జును-సమా యుద్ధమున యుయుధానుడు విరాటుడు మరియు ద్రుపదుడు మరియు మహాన్-రథ
+SUra should be SUrulu,  vilukArudu should be vilukArulu, BImu-arjunu-samA should be BIma-arjuna-samAnulu, mahAn-raWa should be mahAraWudEna xrupaxudu, (unnAru should be adhyahriwam).
+
+4. XqRtakewuH cekiwAnaH kASirAjaH ca vIryavAn purujiw kunwiBojaH ca SEbyaH ca nara-pufgavaH
+ధృష్టకేతుడు చేకితానుడు కాశిరాజు మరియు వీరుడు పురుజిత్తుడు కున్తిభోజుడు మరియు శైబ్యుడు మరియు నర-పుఙ్గవ
+nara-pufgavudu (unnAru should be adhyahritam).
+
+5. yuXAmanyuH ca vikrAnwaH uwwama-ojAH ca vIryavAn sOBaxraH xrOpaxeyAH ca sarve eva mahAn-raWAH
+యుధామన్యుడు మరియు విక్రాన్తుడు ఉత్తము-ఓజస్ మరియు వీరుడు సౌభద్రుడు ద్రౌపదేయుడు మరియు అందరు మాత్రమే అవ్య్ మహాన్-రథ
+mahAraWule is correct. mAwrame avy is given. 
+
+6. asmAkam wu viSiRtAH ye wAn niboXa xvija-uwwama nAyakAH mama sEnyasya saFjFA-arWam wAn bravImi we
+Didn't get output
+
+7. BavAn BIRmaH ca karNaH ca kqpaH ca samiwiFjayaH aSvawWAmA vikarNaH ca sOmaxawwiH waWA eva ca
+భవ భీష్ముడు మరియు కర్ణుడు మరియు కృపాచార్యుడు మరియు సమితిఞ్జయ అశ్వత్థామన్ వికర్ణుడు మరియు సౌమదత్తుడు అట్లు మాత్రమే అవ్య్ మరియు
+Bava should be mIru, samiwiFjaya should be samiwiFjayudu, aSvawWAman should be aSvawWAmudu, atlu mAwrame should be kUdA atle (mahAraWulu).
+
+8. anye ca bahavaH SUrAH maw-arWe wyakwa-jIviwAH nAnA-Saswra-praharaNAH sarve yuxXa-viSAraxAH
+అన్య మరియు బహు శూర మత్-అర్థ త్యక్త-జీవించువాడు నానా-శస్త్ర-ఆయుధము ధరించువాడు అందరు విశారద
+anya should be anyulu,  SUra should be SUrulu, maw-arWa should be nA kosaM 
+
+9. a-paryApwam waw asmAkam balam BIRma-aBirakRiwam paryApwam wu ixam eweRAm balam BIma-aBirakRiwam
+didn't get output
+
+10. ayaneRu ca sarveRu yaWA-BAgam avasWiwAH BIRmam eva aBirakRanwu BavanwaH sarve eva hi
+అయన మరియు సర్వం యథా-భాగ అవ ష్థా భీష్మ మాత్రమే అవ్య్ రక్షించు మీరు అందరు మాత్రమే అవ్య్ కద
+ayana should be sWAnaMlo, sarveRu should be anni, BAga should be BAgAllo, avasWiwAH should be uMdAli/nilabadAli, BIRma should be BIRmudini, aBirakRanwu should be rakRiMcAli, second eva should be kUda. 
+
+11. wasya saFjanayan harRam kuru-vqxXaH piwAmahaH siMha-nAxam vinaxya uccEH SafKam xaXmO prawApavAn
+అతను జనియించు సంతోషం కురువు-వృద్ధుడు పితామహుడు సఇంహ-నాద వి ణద్ పైకి శఙ్ఖం ఊదినాడు ప్రతాప
+
+janiyiMcu should be janiyiMcucu, vqxXaH should be vqxXudu, piwAmahudu, vinaxya should be ceyucu, ucCEH should be gattigA, prawApa should be prawApavaMwudEna
+
+12.wawaH SafKAH ca BeryaH ca paNavAnaka-gomuKAH sahasA eva aByahanyanwa saH SabxaH wumulaH aBavaw
+అక్కడనుండి శఙ్ఖం మరియు భేరీ మరియు పణవానక-గోముఖా హఠాత్తుగా మాత్రమే అవ్య్ దాడి చేయు అతను శబ్దము యుద్ధమందు ధ్వని భూ ప్ప్ స్క్
+akkadanuMdi should be AwaruvAwa, xAdi ceyu should be m(r)ogiMcabadinavi. awanu should be A,  
+
+13. wawaH SvewEH hayEH yukwe mahawi syanxane sWiwO mAXavaH pANdavaH ca eva xivyO SafKO praxaXmawuH
+అక్కడనుండి స్వేత అశ్వములతో యుక్తి మహ్ ప్ప్ స్క్ స్యన్దనా స్థితి మాధవుడు పాణ్డురాజు మరియు మాత్రమే అవ్య్ దివ్యములు శఙ్ఖం పూరించు
+
+
+14. pAFcajanyam hqRIkeSaH xeva-xawwam XanaFjayaH pONdram xaXmO mahAn-SafKam BIma-karmA vqka-uxaraH
+పాఞ్చజన్యం హృషీకేశుడు ఇవ్వు ధనఞ్జయుడు పౌణ్డ్రం ఊదినాడు మహాన్-శఙ్ఖం భీము-కర్మా వృక-ఉదర
+
+
+
+
+
+
+
+
+
+
+
+
+

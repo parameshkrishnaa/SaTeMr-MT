@@ -26,15 +26,15 @@ $Lang=$ARGV[2];
 if($ARGV[3] eq "D") { $DEBUG = 1; } else {$DEBUG = 0;}
 
 #use GDBM_File;
-#tie(%NOUN,GDBM_File,"$Data_Path/te/noun.dbm",GDBM_READER,0644) || die "Can't open $Data_Path/hi/noun.dbm for reading";
-#tie(%PRONOUN,GDBM_File,"$Data_Path/te/pronoun.dbm",GDBM_READER,0644) || die "Can't open pronoun.dbm for reading";
-#tie(%TAM,GDBM_File,"$Data_Path/te/tam.dbm",GDBM_READER,0644) || die "Can't open tam.dbm for reading";
-#tie(%VERB,GDBM_File,"$Data_Path/te/verb.dbm",GDBM_READER,0644) || die "Can't open verb.tam for reading";
-#tie(%AVY,GDBM_File,"$Data_Path/te/avy.dbm",GDBM_READER,0644) || die "Can't open avy.dbm for reading";
-#tie(%PRATIPADIKAM,GDBM_File,"$Data_Path/te/noun_pronoun_pratipadika.dbm",GDBM_READER,0644) || die "Can't open noun_pronoun_pratipadika.dbm for reading";
-#tie(%FEM,GDBM_File,"$Data_Path/te/fem_hnd_noun.dbm",GDBM_READER,0644) || die "Can't open avy.dbm for reading";
+#tie(%NOUN,GDBM_File,"$Data_Path/mr/noun.dbm",GDBM_READER,0644) || die "Can't open $Data_Path/hi/noun.dbm for reading";
+#tie(%PRONOUN,GDBM_File,"$Data_Path/mr/pronoun.dbm",GDBM_READER,0644) || die "Can't open pronoun.dbm for reading";
+#tie(%TAM,GDBM_File,"$Data_Path/mr/tam.dbm",GDBM_READER,0644) || die "Can't open tam.dbm for reading";
+#tie(%VERB,GDBM_File,"$Data_Path/mr/verb.dbm",GDBM_READER,0644) || die "Can't open verb.tam for reading";
+#tie(%AVY,GDBM_File,"$Data_Path/mr/avy.dbm",GDBM_READER,0644) || die "Can't open avy.dbm for reading";
+#tie(%PRATIPADIKAM,GDBM_File,"$Data_Path/mr/noun_pronoun_pratipadika.dbm",GDBM_READER,0644) || die "Can't open noun_pronoun_pratipadika.dbm for reading";
+#tie(%FEM,GDBM_File,"$Data_Path/mr/fem_hnd_noun.dbm",GDBM_READER,0644) || die "Can't open avy.dbm for reading";
 
-open(TMP,"$Data_Path/te/noun.txt") || die "Can't open $Data_Path/hi/noun.txt for reading";
+open(TMP,"$Data_Path/mr/noun.txt") || die "Can't open $Data_Path/mr/noun.txt for reading";
 while(<TMP>) {
 chomp;
 $_ =~ /^([^,]+),([^,]+),([^,]+),([^,]+)/;
@@ -44,8 +44,7 @@ $PRATIPADIKAM{$1}=$3;
 $NOUN{$key}=$val;
 }
 close(TMP);
-
-open(TMP,"$Data_Path/te/pronoun.txt") || die "Can't open pronoun.txt for reading";
+open(TMP,"$Data_Path/mr/pronoun.txt") || die "Can't open pronoun.txt for reading";
 while(<TMP>) {
 chomp;
 $_ =~ /^([^,]+),([^,]+),([^,]+)$/;
@@ -55,7 +54,7 @@ $PRATIPADIKAM{$1}=$val;
 $PRONOUN{$key}=$val;
 }
 close(TMP);
-open(TMP,"$Data_Path/te/tam.txt") || die "Can't open tam.txt for reading";
+open(TMP,"$Data_Path/mr/tam.txt") || die "Can't open tam.txt for reading";
 while(<TMP>) {
 chomp;
 $_ =~ /^([^,]+),(.*)$/;
@@ -65,7 +64,7 @@ $TAM{$key}=$val;
 }
 close(TMP);
 
-open(TMP,"$Data_Path/te/verb.txt") || die "Can't open verb.tam for reading";
+open(TMP,"$Data_Path/mr/verb.txt") || die "Can't open verb.tam for reading";
 while(<TMP>) {
 chomp;
 $_ =~ /^([^,]+),([^,]+),([^,]+),v,([^,]+)(,.*)?$/;
@@ -80,7 +79,7 @@ $VERB_RT{$rt}=$val;
 }
 close(TMP);
 
-open(TMP,"$Data_Path/te/avy.txt") || die "Can't open avy.txt for reading";
+open(TMP,"$Data_Path/mr/avy.txt") || die "Can't open avy.txt for reading";
 while(<TMP>) {
 chomp;
 $_ =~ /^([^,]+),avy,(.*)$/;
@@ -89,7 +88,7 @@ $val = $2;
 $AVY{$key}=$val;
 }
 close(TMP);
-open(TMP,"$Data_Path/te/fem_hnd_noun.lst") || die "Can't open fem_hnd_noun.lst for reading";
+open(TMP,"$Data_Path/mr/fem_hnd_noun.lst") || die "Can't open fem_hnd_noun.lst for reading";
 while(<TMP>) {
 chomp;
 $key = $_;
@@ -232,7 +231,8 @@ while($tmpin = <STDIN>){
       } elsif($cat eq "n") {
 
         ($rt,$lifga,$viBakwi,$vacana,$rel) = split(/:/, &get_noun_features($in[$i]));
-	#print "rt = $rt\n";
+	#	print "rt = $rt AAA\n";
+	#print "lifga = $lifga\n";
 	if (($rel eq "karwqsamAnAXikaraNam") || ($rel eq "viSeRaNam") || ($rel eq "aBexaH")) {
            $key = $rt."_vi";
            $map_rt = &get_dict_mng($key, $rNOUN);
@@ -534,12 +534,13 @@ my $cat  = "";
 sub get_noun_features{
 my($in) = @_;
 my $ans = "";
+#print" in=$in AAA \n";
   if($in =~ /^.*rt:([^;]+).*lifgam:([^;]+).*viBakwiH:([^;]+).*vacanam:([^;]+).*rel_nm:([^;]+)/){
      $ans = join(":",$1,$2,$3,$4,$5);
   } elsif($in =~ /^.*rt:([^;]+).*lifgam:([^;]+).*viBakwiH:([^;]+).*vacanam:([^;]+)/){
      $ans = join(":",$1,$2,$3,$4,"");
   }
-  #print "ans NF = $ans\n";
+  # print "BBBBBB  ans NF = $ans\n";
 $ans;
 }
 1;
