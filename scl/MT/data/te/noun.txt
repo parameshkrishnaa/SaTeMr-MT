@@ -590,7 +590,7 @@ jaya,swrI,jayaM,napuM
 jayaxraWa,puM,jayaxraWudu,puM
 jFAna,napuM,jFAnaM,napuM
 jFAnin,puM,jFAni,napuM
-jijFAsu,puM,welusukoVnu_icCa_kalavAdu,puM
+jijFAsu,puM,weVlusukoVnu_icCa_kalavAdu,puM
 jIrNa,napuM,jIrNa^vqxXudu^SiWilaM^pAwaxi,napuM
 jIrNa,puM,jIrNa^vqxXudu^SiWilaM^pAwaxi,napuM
 jIrNa,swrI,jIrNa^vqxXudu^SiWilaM^pAwaxi,napuM
@@ -947,7 +947,7 @@ paFcama,puM,paMcamaM^Exava,napuM
 paFcan,napuM,paMca^Exu,napuM
 pakRa,napuM,prakka^paxihenu_rojulu,napuM
 pakRa,puM,prakka^paxihenu_rojulu,napuM
-pakRin,puM,pakRi^rekkalu_galaxi,napuM
+pakRin,puM,pakRi^reVkkalu_galaxi,napuM
 pAla,puM,pAlana^pAlakudu,napuM
 pAla,puM,pAlana^pAlakudu,puM
 Pala,napuM,PalaM,napuM
@@ -1711,9 +1711,9 @@ wraya,napuM,mUdu,napuM
 wraya,puM,mUdu,napuM
 wraya,swrI,mUdu,napuM
 wrayI,swrI,mUdu_vexamulu,napuM
-wrEguNya,puM,wrEguNya^wriguNamula,napuM
-wrEguNya,napuM,wrEguNya^wriguNamula,napuM
-wrElokya,napuM,wrElokya^wrilokamula,napuM
+wrEguNya,puM,wrEguNya^wriguNAlu,napuM
+wrEguNya,napuM,wrEguNya^wriguNAlu,napuM
+wrElokya,napuM,wrElokya^wrilokAlu,napuM
 wrEvixya,puM,wrivixya,napuM
 wri,puM,mUdu,napuM
 wriviXA,swrI,mUdu_viXamulu,napuM
