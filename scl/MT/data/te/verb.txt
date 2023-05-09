@@ -85,7 +85,7 @@ arc1,pp,sk,v,pUjiMcu^gOraviMcu,pUjAyAm
 arh1,pp,sk,v,arhawa_uMcu^pUjiMcu,pUjAyAM_yogyawve_ca
 as1,ap,sk,v,velYlu^wIsukoVnu^prakASiMcu,gawi-xIpwi-AxAneRu  
 as1,pp,sk,v,velYlu^prakASiMcu^wIsukoVnu,gawi-xIpwi-AxAneRu
-as2,pp,ak,v,avucu^agu^kalugu,Buvi
+as2,pp,ak,v,uMdu^agu^kalugu,Buvi
 ava_Ap1,pp,sk,v,vyApiMcu^prApwiMcu,NW
 ava_IkR1,ap,sk,v,cUcu,
 ava_SiR2,pp,sk,v,migulu^civari_varaku_uMduta,
