@@ -1,5 +1,5 @@
 A,avy,varaku
-AScaryavaw,avy,AscaryaMgA
+AScaryavaw,avy,AScaryaMgA
 Aho,avy,aho                    
 Am,avy,avunu
 ArAw,avy,samIpAna
@@ -7,7 +7,7 @@ BUyaH,avy,malylyi
 BasmasAw,avy,BasmaM
 BoH,avy,o^oyI
 IRaw,avy,koVMceM^alpaM
-Jatiwi,avy,veVMtaneV  
+Jatiwi,avy,veVMtane  
 Kalu,avy,kaxa    
 RoDA,avy,Aru_viXAlugA^Rad_viXamulugA
 RodaSaXA,avy,paxahAru_viXAlugA
@@ -18,7 +18,7 @@ Sam,avy,maMgalyaM^SuBaM
 SanEH,avy,meVllaga
 SanakEH,avy,meVllaga
 SawaSaH,avy,vaMxa_viXamulugA^nUru_viXamulugA
-SawaXA,avy,nUru_viXamuluga
+SawaXA,avy,nUru_viXamulugA
 SawakqwvaH,avy,vaMxa_sArlu^nUru_sArlu
 Sawruvaw,avy,Sawruvu_lAga 
 SrORat,avy,SrORat
@@ -26,7 +26,7 @@ SvaH,avy,repu
 UrXvam,avy,pEna^pEki^nilucunna
 Xik,avy,CIwkAraM^CI  
 aBiwaH,avy,reVMdu_vEpula^eVxuta^iruprakkala^aBimuKam
-aRtaXA,avy,aRta_viXAluga
+aRtaXA,avy,aRta_viXAlugA
 aWa,avy,anaMwaraM^waruvAwa      
 aWakim,avy,aMgIkAraM^svIkariMcuta
 aWavA,avy,atlu_kAnico^lekuMte
@@ -36,7 +36,7 @@ aXunA,avy,ippudu
 afga,avy,aMgaM^avayavaM
 agrawaH,avy,eVxuta  
 aho,avy,aho^Ora
-ajasram,avy,niraMwaraM^eVllappudu^nityaM
+ajasram,avy,niraMwaraM^eVllappudu^niwyaM
 akasmAw,avy,akasmAwwugA^haTAwwugA^unnattuMdi 
 alam,avy,cAlunu^niReXaM^nivAraNaM
 amuwra,avy,akkada^paralokaM
@@ -44,19 +44,19 @@ anu,avy,anusariMcuta
 anwaH,avy,lopala  
 anwarA,avy,maXyalo^lekuMda
 anwareNa,avy,lekuMda^maXyalo
-anyaWA,avy,anyaWA^maroVka_viXamuga
+anyaWA,avy,anyaWA^maroVka_viXamugA
 anyaw,avy,BinnamEnaxi
 anyawra,avy,maroVka_cota^anya_sWalamu    
 anyexyuH,avy,maroVka_roju
 anyonya,avy,parasparaM
 api,avy,kUdA^mariyu
 apiwu,avy,kAni
-arWam,avy,arWam
-aswu,avy,alAge_kAnimM^aMgIkAraM
+arWam,avy,arWaM
+aswu,avy,alAge_kAni^aMgIkAraM
 avaSyam,avy,wappakuMda^niScayamugA
 awIva,avy,cAla^mikkili
 awaH,avy,aMxuvalana
-awrAnware,avy,I_maXyalo^I_lopu^I_samayamulo
+awrAnware,avy,I_maXyalo^I_lopu^I_samayaMlo
 awra,avy,ikkada
 axXA,avy,wappakuMda^sawyaM^nijaM
 axyApi,avy,ivAlYa_kUda
@@ -142,7 +142,7 @@ kvaciw,avy,eVkkado
 mA,avy,kAxu    
 maXyawaH,avy,maXyalonuMdi
 mafkRu,avy,wvaragA^SIGraM
-manAk,avy,koVceM_kUda
+manAk,avy,koVMceM_kUda
 manaswaH,avy,manasu_nuMdi
 miWyA,avy,miWyA^asawyaM^mAya
 nAma,avy,anu
@@ -181,7 +181,7 @@ praBqwi,avy,moVxalukoVni
 prawi,avy,vEpu
 prawixinam,avy,prawi_xinaM^prawi_roju
 prawyuwa,avy,baxulugA
-punaH,avy,malYlYI 
+punaH,avy,malYlI
 purA,avy,pUrva_kAlaM^veVnukati
 puraswAw,avy,muMxu^eVxuta^moVxata
 purawaH,avy,eVxurugA^eVxuta
@@ -301,3 +301,4 @@ anwar,avy,maXyalo^lopala
 muhuH,avy,mAtimAtiki
 aWo,avy,waruvAwa^aMxukani
 yugapaw,avy,eka_kAlamuna^oVke_sAri
+xUreNa,avy,xUraMgA
