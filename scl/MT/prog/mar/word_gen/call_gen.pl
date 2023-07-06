@@ -99,7 +99,10 @@ $gen=~s/m/nm/g;
 	  if($cat eq "v") {
 $gen=~s/nn/n/g;
 $gen=~s/nm/m/g;
-		  $wrd="^".$rt."<pos:".$cat."><tam:".$tam."><gender:".$gen."><number:".$num."><person:".$per.">\$"; 
+if($tam=~/^wo$/ && $gen=~/^m$/) {
+	$per = "1";	#jAwo
+}
+			$wrd="^".$rt."<pos:".$cat."><tam:".$tam."><gender:".$gen."><number:".$num."><person:".$per.">\$"; 
 		  #$wrd="^".$rt."<pos:".$cat."><tam:".$tam."><gender:any><number:pl><person:2>\$"; 	#works for gacCawi
   } else {
       $wrd="^".$rt."<pos:".$cat."><gender:".$gen."><number:".$num."><parsarg:".$tam.">\$"; 
